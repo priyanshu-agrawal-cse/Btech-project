@@ -1,0 +1,31 @@
+  {'feature': 'elevation', 'n': 13013, 'max_abs_diff': 0.0, 'nan_mismatch': 0}
+  {'feature': 'slope', 'n': 13013, 'max_abs_diff': 0.0, 'nan_mismatch': 0}
+  {'feature': 'aspect_sin', 'n': 13013, 'max_abs_diff': 0.0, 'nan_mismatch': 0}
+  {'feature': 'aspect_cos', 'n': 13013, 'max_abs_diff': 0.0, 'nan_mismatch': 0}
+  {'feature': 'curv_general', 'n': 13013, 'max_abs_diff': 0.0, 'nan_mismatch': 0}
+  {'feature': 'curv_profile', 'n': 13013, 'max_abs_diff': 0.0, 'nan_mismatch': 0}
+  {'feature': 'curv_plan', 'n': 13013, 'max_abs_diff': 0.0, 'nan_mismatch': 0}
+  {'feature': 'tri', 'n': 13013, 'max_abs_diff': 0.0, 'nan_mismatch': 0}
+  {'feature': 'tpi_270m', 'n': 13013, 'max_abs_diff': 0.0, 'nan_mismatch': 0}
+  {'feature': 'tpi_1km', 'n': 13013, 'max_abs_diff': 0.0, 'nan_mismatch': 0}
+  {'feature': 'tpi_3km', 'n': 13013, 'max_abs_diff': 0.0, 'nan_mismatch': 0}
+  {'feature': 'relief_1km', 'n': 13013, 'max_abs_diff': 0.0, 'nan_mismatch': 0}
+  {'feature': 'twi', 'n': 13013, 'max_abs_diff': 0.0, 'nan_mismatch': 0}
+  {'feature': 'spi_log', 'n': 13013, 'max_abs_diff': 0.0, 'nan_mismatch': 0}
+  {'feature': 'dist_stream', 'n': 13013, 'max_abs_diff': 12.553478240966797, 'nan_mismatch': 0}
+  {'feature': 'hand', 'n': 13013, 'max_abs_diff': 0.3217926025390625, 'nan_mismatch': 0}
+  {'feature': 'dist_road_any', 'n': 13013, 'max_abs_diff': 0.0, 'nan_mismatch': 0}
+  {'feature': 'dist_road_major', 'n': 13013, 'max_abs_diff': 0.0, 'nan_mismatch': 0}
+  {'feature': 'road_density_1km', 'n': 13013, 'max_abs_diff': 0.0, 'nan_mismatch': 0}
+  {'feature': 'dist_river_osm', 'n': 13013, 'max_abs_diff': 0.0, 'nan_mismatch': 0}
+  {'feature': 'soil_clay_pct', 'n': 12956, 'max_abs_diff': 0.0, 'nan_mismatch': 0}
+  {'feature': 'soil_sand_pct', 'n': 12956, 'max_abs_diff': 0.0, 'nan_mismatch': 0}
+  {'feature': 'soil_bdod_gcm3', 'n': 12956, 'max_abs_diff': 0.0, 'nan_mismatch': 0}
+  {'feature': 'lulc', 'n': 13013, 'max_abs_diff': 0.0, 'nan_mismatch': 0}
+  {'feature': 'map', 'n': 13013, 'max_abs_diff': 0.0, 'nan_mismatch': 0}
+  {'feature': 'max_precip', 'n': 13013, 'max_abs_diff': 0.0, 'nan_mismatch': 0}
+  {'feature': 'dist_fault', 'n': 13013, 'max_abs_diff': 0.0, 'nan_mismatch': 0}
+Worst difference: 12.5535; NaN mismatches: 0
+Regeneration accepted within the documented tolerance.
+NDVI added: missing=85; mean landslide=0.763; mean random negative=0.870
+EXIT_CODE=0

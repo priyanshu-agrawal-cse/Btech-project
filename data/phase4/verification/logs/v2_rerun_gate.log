@@ -1,0 +1,6 @@
+All 25 factors, random negatives                        ROC 0.945 (SD 0.001, 0.942-0.947)  F1m 0.881 (SD 0.003)  MCC 0.763
+All except roads, random negatives                      ROC 0.753 (SD 0.004, 0.748-0.761)  F1m 0.690 (SD 0.004)  MCC 0.386
+Distance to road only                                   ROC 0.912 (SD 0.002, 0.909-0.914)  F1m 0.839 (SD 0.003)  MCC 0.682
+Natural 21 factors, tested on random negatives          ROC 0.734 (SD 0.004, 0.728-0.741)  F1m 0.671 (SD 0.005)  MCC 0.349
+Natural 21 factors, tested on road-matched negatives    ROC 0.702 (SD 0.004, 0.692-0.705)  F1m 0.641 (SD 0.004)  MCC 0.284
+Repeated spatial CV complete.

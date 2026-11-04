@@ -1,0 +1,21 @@
+Polygons fall in 58 of 251 sampled 10 km blocks; top 5 blocks hold 43.9%
+Same-area negatives: 4000 from 5,596,659 candidate cells
+{'features': 'full 21 factors', 'gsi_only': np.float64(0.7229), 'with_polygons': np.float64(0.8934), 'gain': np.float64(0.1704)}
+{'features': 'local terrain only', 'gsi_only': np.float64(0.7548), 'with_polygons': np.float64(0.8932), 'gain': np.float64(0.1384)}
+{'features': 'coordinates only', 'gsi_only': np.float64(0.5949), 'with_polygons': np.float64(0.7377), 'gain': np.float64(0.1428)}
+                  features  gsi_only  with_polygons   gain
+           full 21 factors    0.7229         0.8934 0.1704
+        local terrain only    0.7548         0.8932 0.1384
+          coordinates only    0.5949         0.7377 0.1428
+     slope alone, no model       NaN         0.8334    NaN
+ elevation alone, no model       NaN         0.5416    NaN
+aspect_cos alone, no model       NaN         0.2195    NaN
+relief_1km alone, no model       NaN         0.6162    NaN
+                                              0           1
+map                                  Natural v5  Natural v3
+polygon_blocks_share_of_land_pct          24.88       24.88
+very_high_share_of_land_pct                7.55        8.74
+very_high_inside_polygon_blocks_pct       47.29       20.84
+very_high_rate_inside_blocks_pct          14.35        7.32
+very_high_rate_outside_blocks_pct           5.3        9.21
+C4 finished.

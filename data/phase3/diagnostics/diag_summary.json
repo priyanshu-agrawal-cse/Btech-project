@@ -1,0 +1,47 @@
+{
+  "phase2_reproduced": {
+    "experiment": "Phase2 XGB | random 5-fold",
+    "fold_mean_ROC_AUC": 0.8931869929800162,
+    "fold_std_ROC_AUC": 0.0014729817042191322,
+    "fold_mean_PR_AUC": 0.9326947357519784,
+    "fold_mean_F1_macro@0.5": 0.7955503659699955,
+    "ROC_AUC": 0.8932086514093023,
+    "PR_AUC": 0.93266508129611,
+    "PR_AUC_random_baseline": 0.6713434264334812,
+    "threshold": 0.5,
+    "Accuracy": 0.8391738449490994,
+    "Balanced_Accuracy": 0.771476922086098,
+    "Precision_LS": 0.8228755382520051,
+    "Recall_LS": 0.9690243981466481,
+    "F1_LS": 0.8899899564780717,
+    "Precision_NonLS": 0.9007011165930927,
+    "Recall_NonLS": 0.5739294460255477,
+    "F1_NonLS": 0.7011096961979262,
+    "F1_macro": 0.795549826337999,
+    "MCC": 0.6267924108517938,
+    "Kappa": 0.5983587259700456,
+    "Brier": 0.12448271923857183,
+    "TP": 59814,
+    "FP": 12875,
+    "TN": 17343,
+    "FN": 1912
+  },
+  "thr_macroF1_opt": 0.58,
+  "thr_youden_opt": 0.64,
+  "nearest_train_distance": [
+    {
+      "cv": "random 5-fold",
+      "median_m_any": 30.306799999998475,
+      "p90_m_any": 557.1837386976606,
+      "median_m_LS_to_trainLS": 30.3067999999912,
+      "share_LS_test_within_100m_of_train_LS": 1.0
+    },
+    {
+      "cv": "10 km blocks",
+      "median_m_any": 1887.9214724349004,
+      "p90_m_any": 3804.3183189643055,
+      "median_m_LS_to_trainLS": 3187.405217154016,
+      "share_LS_test_within_100m_of_train_LS": 0.02648416619421722
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+clay: re-using saved clip data/raw/soilgrids/clay_30-60cm_mean_mizoram_igh.tif
+  soil_clay_pct    min=  27.218 mean=  36.099 max=  48.511  missing=0.1079%
+sand: re-using saved clip data/raw/soilgrids/sand_30-60cm_mean_mizoram_igh.tif
+  soil_sand_pct    min=  13.107 mean=  28.023 max=  40.379  missing=0.1079%
+bdod: re-using saved clip data/raw/soilgrids/bdod_30-60cm_mean_mizoram_igh.tif
+  soil_bdod_gcm3   min=   1.041 mean=   1.220 max=   1.400  missing=0.1079%
+SoilGrids features complete.
+EXIT_CODE=0

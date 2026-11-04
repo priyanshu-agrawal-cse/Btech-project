@@ -1,0 +1,30 @@
+               factor              class  area_pct  landslide_pct  frequency_ratio
+           lith_group           alluvium      0.01           0.00             0.00
+           lith_group sandstone_dominant     42.35          38.52             0.91
+           lith_group     shale_dominant     28.25          37.60             1.33
+           lith_group        interbedded      8.79           8.12             0.92
+           lith_group      conglomeratic      6.89           7.75             1.12
+           lith_group       coal_bearing     12.63           7.26             0.57
+           lith_group         calcareous      0.41           0.65             1.56
+       dist_lineament           0 to 250      9.32          10.01             1.07
+       dist_lineament         250 to 500      8.66           8.77             1.01
+       dist_lineament        500 to 1000     16.18          18.13             1.12
+       dist_lineament       1000 to 2000     25.90          26.04             1.01
+       dist_lineament       2000 to 4000     27.23          25.66             0.94
+       dist_lineament             > 4000     12.71          11.40             0.90
+lineament_density_1km          0 to 0.01     78.31          76.76             0.98
+lineament_density_1km       0.01 to 0.25      2.59           2.85             1.10
+lineament_density_1km        0.25 to 0.5      2.48           2.74             1.10
+lineament_density_1km           0.5 to 1      4.99           5.38             1.08
+lineament_density_1km             1 to 2     10.03          10.22             1.02
+lineament_density_1km                > 2      1.59           2.04             1.28
+Missing share of land %: {'lith_group': 0.6633028477242605, 'dist_lineament': 0.0, 'lineament_density_1km': 0.0}
+Spearman with existing factors:
+               dist_lineament  lineament_density_1km  max_abs
+hand                    0.063                 -0.099    0.099
+dist_stream             0.053                 -0.090    0.090
+soil_clay_pct          -0.076                  0.054    0.076
+dist_road_any           0.071                 -0.042    0.071
+relief_1km              0.056                 -0.064    0.064
+map                     0.060                 -0.022    0.060
+Step 04 complete.

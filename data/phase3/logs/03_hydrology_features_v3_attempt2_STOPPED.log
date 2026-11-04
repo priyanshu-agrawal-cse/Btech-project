@@ -1,0 +1,10 @@
+Cell 30.3068 m (918.5 m2); stream threshold = 1089 cells (1 km2)
+  wrote dem_padded_uncompressed.tif (uncompressed copy for WhiteboxTools)
+Traceback (most recent call last):
+  File "scripts/phase3/03_hydrology_features_v3.py", line 99, in <module>
+    run("breach_depressions_least_cost", WBT_DEM, "dem_breached.tif", dist=100, fill=True)
+  File "scripts/phase3/03_hydrology_features_v3.py", line 68, in run
+    raise RuntimeError(f"WhiteboxTools {tool} failed (code {ret}, output {out} missing)")
+RuntimeError: WhiteboxTools breach_depressions_least_cost failed (code 0, output dem_breached.tif missing)
+EXIT_CODE=1
+NOTE: attempt 2 stopped manually at 14:25 UTC (19:55 IST) after ~15 min: BreachDepressionsLeastCost is single-threaded and had not finished; replaced by FillDepressions (attempt 3).

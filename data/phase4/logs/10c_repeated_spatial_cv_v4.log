@@ -1,0 +1,7 @@
+All 28 factors, random negatives                        ROC 0.945 (SD 0.002, 0.943-0.948)  F1m 0.882 (SD 0.003)  MCC 0.764
+All except roads, random negatives                      ROC 0.759 (SD 0.005, 0.752-0.768)  F1m 0.693 (SD 0.005)  MCC 0.392
+Distance to road only                                   ROC 0.913 (SD 0.001, 0.910-0.915)  F1m 0.841 (SD 0.002)  MCC 0.686
+Natural 24 factors, tested on random negatives          ROC 0.738 (SD 0.003, 0.733-0.742)  F1m 0.672 (SD 0.006)  MCC 0.357
+Natural 24 factors, tested on road-matched negatives    ROC 0.701 (SD 0.004, 0.691-0.705)  F1m 0.640 (SD 0.005)  MCC 0.287
+A6 decision: {'baseline_rule': 0.702, 'baseline_stored_mean': 0.702, 'v4_mean': 0.7014, 'v4_sd': 0.0039, 'gain_over_0.702': -0.0006, 'paired_gain_mean': -0.0006, 'seeds_better': 4, 'required_gain': 0.01, 'adopt_geology': False}
+Repeated spatial CV complete.

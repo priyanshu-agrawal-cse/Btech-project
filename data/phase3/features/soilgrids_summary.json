@@ -1,0 +1,23 @@
+{
+  "soil_clay_pct": {
+    "min": 27.2177734375,
+    "mean": 36.0992546081543,
+    "max": 48.510555267333984,
+    "missing_share_of_land": 0.0010792453633682308,
+    "source": "https://files.isric.org/soilgrids/latest/data/clay/clay_30-60cm_mean.vrt"
+  },
+  "soil_sand_pct": {
+    "min": 13.106581687927246,
+    "mean": 28.023357391357422,
+    "max": 40.37929916381836,
+    "missing_share_of_land": 0.0010792453633682308,
+    "source": "https://files.isric.org/soilgrids/latest/data/sand/sand_30-60cm_mean.vrt"
+  },
+  "soil_bdod_gcm3": {
+    "min": 1.0406354665756226,
+    "mean": 1.220139980316162,
+    "max": 1.3999593257904053,
+    "missing_share_of_land": 0.0010792453633682308,
+    "source": "https://files.isric.org/soilgrids/latest/data/bdod/bdod_30-60cm_mean.vrt"
+  }
+}

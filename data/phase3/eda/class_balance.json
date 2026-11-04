@@ -1,0 +1,28 @@
+{
+  "rows_by_set": {
+    "neg_pool": 7436,
+    "pos": 1859,
+    "neg_random": 1859,
+    "neg_roadmatched": 1859
+  },
+  "positive_share_main": 0.5,
+  "blocks10_total": 243,
+  "blocks10_with_landslides": 188,
+  "landslides_per_block_median": 8.0,
+  "landslides_per_block_max": 61,
+  "share_of_landslides_in_top10_blocks": 0.20494889725658957,
+  "landslide_pixels_by_district": {
+    "Champhai": 437,
+    "Aizawl": 433,
+    "Lunglei": 378,
+    "Lawngtlai": 175,
+    "Serchhip": 147,
+    "Mamit": 129,
+    "Saiha": 80,
+    "Kolasib": 77,
+    "Mizoram": 2,
+    "Hailakandi": 1
+  },
+  "min_distance_negative_to_landslide_m": 135.5360308434935,
+  "duplicates_within_set": 0
+}

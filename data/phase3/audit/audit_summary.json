@@ -1,0 +1,52 @@
+{
+  "dem_nodata_declared": null,
+  "grid_cells": 37361083,
+  "zero_fill_cells": 14442291,
+  "valid_land_cells": 22918792,
+  "elevation_mean_whole_rectangle": 375.0817012051574,
+  "elevation_mean_inside_state": 611.4396679592487,
+  "slope_mean_whole_rectangle": 14.135214358439573,
+  "slope_mean_inside_state": 22.916658030071154,
+  "aspect_mean_whole_rectangle": 110.43299367931729,
+  "aspect_mean_inside_state": 180.2565178421751,
+  "curvature_mean_whole_rectangle": -2.291288539093693e-10,
+  "curvature_mean_inside_state": 0.06958925218258673,
+  "spearman_slope_twi": -0.999999999998974,
+  "lithology_classes_inside_state": {
+    "1": 22918792
+  },
+  "target_coolr_only_pixels": 43,
+  "target_coolr_only_blobs": 41,
+  "target_expanded_no_buffer_pixels": 1633,
+  "target_expanded_no_buffer_blobs": 1531,
+  "target_expanded_90_m_buffer_pixels": 65711,
+  "target_expanded_90_m_buffer_blobs": 1483,
+  "gsi_records_india": 30842,
+  "gsi_records_mizoram": 2041,
+  "gsi_geom_types_mizoram": {
+    "Point": 2041
+  },
+  "csv_rows": 91944,
+  "csv_pos": 61726,
+  "csv_neg": 30218,
+  "csv_pos_share": 0.6713434264334812,
+  "phase2_candidate_cells": 37056918,
+  "phase2_candidate_cells_outside_state": 14423360,
+  "phase2_slope_quintile_cuts": [
+    0.0,
+    0.0,
+    3.356,
+    18.717,
+    27.772,
+    88.184
+  ],
+  "v2_mean_prob": 0.4085272550582886,
+  "v2_share_p_ge_0_5": 0.3781923584803248,
+  "v2_zone_area_pct": {
+    "Very Low": 26.497827634196426,
+    "Low": 24.280612171880612,
+    "Moderate": 22.859411612968085,
+    "High": 19.43179204209367,
+    "Very High": 6.93035653886121
+  }
+}

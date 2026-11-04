@@ -1,0 +1,132 @@
+[
+  {
+    "fold": 0,
+    "lr": {
+      "params": {
+        "C": 0.1152321528294806,
+        "penalty": "l2"
+      },
+      "inner_auc": 0.8953472477030123
+    },
+    "rf": {
+      "params": {
+        "n_estimators": 400,
+        "max_depth": 14,
+        "min_samples_leaf": 8,
+        "max_features": 0.4
+      },
+      "inner_auc": 0.9447348215118331
+    },
+    "svm": {
+      "params": {
+        "C": 8.23143373099555,
+        "gamma": 0.003741940611118496
+      },
+      "inner_auc": 0.9013472606661171
+    }
+  },
+  {
+    "fold": 1,
+    "lr": {
+      "params": {
+        "C": 5.396408491674145,
+        "penalty": "l2"
+      },
+      "inner_auc": 0.8945489277669774
+    },
+    "rf": {
+      "params": {
+        "n_estimators": 300,
+        "max_depth": 9,
+        "min_samples_leaf": 5,
+        "max_features": 0.4
+      },
+      "inner_auc": 0.9433164730294665
+    },
+    "svm": {
+      "params": {
+        "C": 8.23143373099555,
+        "gamma": 0.003741940611118496
+      },
+      "inner_auc": 0.9029057198667143
+    }
+  },
+  {
+    "fold": 2,
+    "lr": {
+      "params": {
+        "C": 53.37053103183775,
+        "penalty": "l2"
+      },
+      "inner_auc": 0.8916922418930779
+    },
+    "rf": {
+      "params": {
+        "n_estimators": 400,
+        "max_depth": 14,
+        "min_samples_leaf": 8,
+        "max_features": 0.4
+      },
+      "inner_auc": 0.9392406380444128
+    },
+    "svm": {
+      "params": {
+        "C": 8.23143373099555,
+        "gamma": 0.003741940611118496
+      },
+      "inner_auc": 0.9024508938199398
+    }
+  },
+  {
+    "fold": 3,
+    "lr": {
+      "params": {
+        "C": 56.69849511478853,
+        "penalty": "l2"
+      },
+      "inner_auc": 0.8857273525938699
+    },
+    "rf": {
+      "params": {
+        "n_estimators": 400,
+        "max_depth": 9,
+        "min_samples_leaf": 8,
+        "max_features": 0.4
+      },
+      "inner_auc": 0.9408780250080934
+    },
+    "svm": {
+      "params": {
+        "C": 8.23143373099555,
+        "gamma": 0.003741940611118496
+      },
+      "inner_auc": 0.8990972815983408
+    }
+  },
+  {
+    "fold": 4,
+    "lr": {
+      "params": {
+        "C": 21.42302175774105,
+        "penalty": "l2"
+      },
+      "inner_auc": 0.8957153711074897
+    },
+    "rf": {
+      "params": {
+        "n_estimators": 400,
+        "max_depth": 14,
+        "min_samples_leaf": 8,
+        "max_features": 0.4
+      },
+      "inner_auc": 0.9461991312553684
+    },
+    "svm": {
+      "params": {
+        "C": 8.23143373099555,
+        "gamma": 0.003741940611118496
+      },
+      "inner_auc": 0.9049000709285063
+    }
+  }
+]

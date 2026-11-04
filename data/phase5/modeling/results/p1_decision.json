@@ -1,0 +1,16 @@
+{
+  "task": "P1.3 Decision Rule",
+  "threshold_test_p_gain_min": 0.02,
+  "threshold_test_r_change_min": -0.01,
+  "mean_auc_gsi_test_p": 0.6721,
+  "mean_auc_v5_test_p": 0.9231,
+  "mean_gain_test_p": 0.2509,
+  "test_p_passed": true,
+  "mean_auc_gsi_test_r": 0.6999,
+  "mean_auc_v5_test_r": 0.6967,
+  "mean_change_test_r": -0.0032,
+  "test_r_passed": true,
+  "v5_model_adopted": true,
+  "decision": "ADOPTED",
+  "summary": "v5 model ADOPTED: Test P gained +0.2509 (>= 0.020) and Test R changed by -0.0032 (>= -0.010)."
+}

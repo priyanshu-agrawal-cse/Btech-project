@@ -1,0 +1,12 @@
+  row  1024/9437: 818,163 land cells, 3s
+  row  2048/9437: 3,468,486 land cells, 12s
+  row  3072/9437: 7,265,544 land cells, 25s
+  row  4096/9437: 11,054,014 land cells, 38s
+  row  5120/9437: 14,530,746 land cells, 50s
+  row  6144/9437: 17,315,770 land cells, 64s
+  row  7168/9437: 19,412,928 land cells, 75s
+  row  8192/9437: 21,515,968 land cells, 88s
+  row  9216/9437: 22,896,665 land cells, 95s
+  row 10240/9437: 22,918,792 land cells, 95s
+Saved data/final/mizoram_landslide_susceptibility_v3.tif (71.1 MB) and data/phase3/maps/susceptibility_v3_spatial_oof.tif (71.2 MB)
+EXIT_CODE=0

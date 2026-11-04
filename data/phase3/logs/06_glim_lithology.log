@@ -1,0 +1,13 @@
+Downloading GLiM from https://www.dropbox.com/s/9vuowtebp9f1iud/LiMW_GIS%202015.gdb.zip?dl=1
+GLiM archive: 1138.7 MB, valid zip = True
+GDB inside zip: LiMW_GIS 2015.gdb; layers: [['GLiM_export', 'MultiPolygon']]
+layer 'GLiM_export': 1,235,259 features, CRS=PROJCS["World_Eckert_IV",GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0],UNIT["Degree",0.0174532925199433]],PROJECTION["Eckert_IV"],PARAMETER["central_meridian",0],PARAMETER["false_easting",0],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["Easting",EAST],AXIS["Northing",NORTH],AUTHORITY["ESRI","54012"]], fields=['IDENTITY_', 'Litho', 'xx', 'Shape_Length', 'Shape_Area']
+<python-site-packages>/pyogrio/raw.py:200: RuntimeWarning: organizePolygons() received a polygon with more than 100 parts. The processing may be really slow.  You can skip the processing by setting METHOD=SKIP, or only make it analyze counter-clock wise parts by setting METHOD=ONLY_CCW if you can assume that the outline of holes is counter-clock wise defined
+  return ogr_read(
+polygons intersecting Mizoram + 10 km: 32
+  area share by xx (% of state): {'ss': 99.61, 'sm': 0.34, 'su': 0.05}
+  area share by Litho (% of state): {'ssmx__': 98.57, 'sssscl': 0.84, 'smmx__': 0.34, 'ssss__': 0.2, 'sumx__': 0.05, 'sssh__': 0.01}
+  area share by IDENTITY_ (% of state): {'IND47': 76.59, 'IND54': 5.86, 'IND60': 2.6, 'IND56': 2.25, 'IND66': 1.95, 'IND63': 1.86, 'IND53': 1.5, 'IND65': 1.47, 'IND55': 1.34, 'IND61': 0.79, 'IND68': 0.79, 'IND64': 0.72, 'IND59': 0.68, 'MMY1': 0.34, 'IND67': 0.27, 'IND57': 0.21, 'BGD1099': 0.18, 'IND62': 0.18, 'IND58': 0.16, 'MMY426': 0.14, 'IND51': 0.05, 'IND50': 0.04, 'BGD1025': 0.02, 'BGD821': 0.01, 'BGD894': 0.01, 'IND52': 0.0}
+GLiM has a single dominant class over Mizoram -> no informative lithology layer.
+GLiM step complete.
+EXIT_CODE=0

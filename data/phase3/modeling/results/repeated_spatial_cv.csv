@@ -1,0 +1,51 @@
+config,seed,ROC_AUC,F1_macro,MCC
+"All 25 factors, random negatives",1,0.9442,0.8803,0.761
+"All 25 factors, random negatives",2,0.947,0.8846,0.7695
+"All 25 factors, random negatives",3,0.9443,0.8789,0.7582
+"All 25 factors, random negatives",4,0.9448,0.8816,0.7636
+"All 25 factors, random negatives",5,0.9472,0.8808,0.762
+"All 25 factors, random negatives",6,0.9463,0.8816,0.7635
+"All 25 factors, random negatives",7,0.9449,0.8843,0.7689
+"All 25 factors, random negatives",8,0.9436,0.88,0.7605
+"All 25 factors, random negatives",9,0.9427,0.8768,0.7541
+"All 25 factors, random negatives",10,0.946,0.8824,0.7652
+"All except roads, random negatives",1,0.755,0.6927,0.3908
+"All except roads, random negatives",2,0.7479,0.686,0.3785
+"All except roads, random negatives",3,0.7495,0.6833,0.3743
+"All except roads, random negatives",4,0.7529,0.6904,0.387
+"All except roads, random negatives",5,0.7548,0.6927,0.3908
+"All except roads, random negatives",6,0.7594,0.6867,0.3804
+"All except roads, random negatives",7,0.7484,0.6884,0.3836
+"All except roads, random negatives",8,0.7613,0.6973,0.3988
+"All except roads, random negatives",9,0.7501,0.6861,0.3794
+"All except roads, random negatives",10,0.7589,0.6977,0.4016
+Distance to road only,1,0.9128,0.8369,0.6777
+Distance to road only,2,0.9131,0.8402,0.6836
+Distance to road only,3,0.9127,0.8423,0.6884
+Distance to road only,4,0.9137,0.8375,0.6779
+Distance to road only,5,0.9111,0.8386,0.6801
+Distance to road only,6,0.9135,0.8393,0.6827
+Distance to road only,7,0.9131,0.8435,0.6899
+Distance to road only,8,0.9113,0.8383,0.6802
+Distance to road only,9,0.9088,0.8346,0.6719
+Distance to road only,10,0.9109,0.8404,0.6851
+"Natural 21 factors, tested on random negatives",1,0.7324,0.6681,0.3449
+"Natural 21 factors, tested on random negatives",2,0.7279,0.6744,0.3575
+"Natural 21 factors, tested on random negatives",3,0.7365,0.668,0.343
+"Natural 21 factors, tested on random negatives",4,0.7359,0.6747,0.3567
+"Natural 21 factors, tested on random negatives",5,0.7381,0.6773,0.3612
+"Natural 21 factors, tested on random negatives",6,0.7396,0.6765,0.3585
+"Natural 21 factors, tested on random negatives",7,0.7357,0.6779,0.3621
+"Natural 21 factors, tested on random negatives",8,0.7299,0.6636,0.3345
+"Natural 21 factors, tested on random negatives",9,0.7297,0.6724,0.3514
+"Natural 21 factors, tested on random negatives",10,0.7338,0.6723,0.3539
+"Natural 21 factors, tested on road-matched negatives",1,0.7048,0.639,0.2811
+"Natural 21 factors, tested on road-matched negatives",2,0.6907,0.6368,0.2758
+"Natural 21 factors, tested on road-matched negatives",3,0.7047,0.6418,0.2862
+"Natural 21 factors, tested on road-matched negatives",4,0.7043,0.6459,0.2943
+"Natural 21 factors, tested on road-matched negatives",5,0.7056,0.6466,0.2951
+"Natural 21 factors, tested on road-matched negatives",6,0.7034,0.6444,0.29
+"Natural 21 factors, tested on road-matched negatives",7,0.7052,0.649,0.2999
+"Natural 21 factors, tested on road-matched negatives",8,0.7014,0.6385,0.2799
+"Natural 21 factors, tested on road-matched negatives",9,0.7002,0.6441,0.2903
+"Natural 21 factors, tested on road-matched negatives",10,0.7,0.6414,0.286

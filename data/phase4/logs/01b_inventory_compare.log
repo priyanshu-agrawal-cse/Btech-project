@@ -1,0 +1,15 @@
+training pixel columns: ['row', 'col', 'n_locations', 'n_records', 'event_ids', 'source', 'district'] 1859
+                                                        layer    n  within_60m_of_road_pct  median_road_dist_m  within_150m_of_training_pct  unseen_beyond_150m
+                                             NGDR points, all 3372                   74.35                 0.0                        64.92                1183
+NGDR polygons, data_type=Mapped as point bufferred to polygon 1057                   53.93                30.0                        61.59                 406
+                   NGDR polygons, data_type=Mapped as polygon 1774                   25.37               881.0                        18.94                1438
+                                           NGDR polygons, all 4254                   45.09               136.0                        36.20                2714
+
+Polygon area m2: {'count': 4254.0, 'mean': 510.0, 'std': 2313.0, 'min': 2.0, '25%': 75.0, '50%': 153.0, '75%': 424.0, 'max': 101676.0}
+data_type {'Mapped as polygon': np.int64(1774), 'Mapped as point bufferred to polygon': np.int64(1057)}
+landslide_ {'Slide': np.int64(2546), 'Fall': np.int64(61), 'Debris flow': np.int64(34), 'Subsidence': np.int64(8), 'Flow': np.int64(4)}
+material_t {'Debris': np.int64(1218), 'Rock': np.int64(974), 'Transported soil': np.int64(658), 'Colluvium': np.int64(188), 'Soil': np.int64(172), 'Alluvium': np.int64(9), 'Earth/soil': np.int64(4)}
+lulc {'Moderate vegetation': np.int64(1492), 'Thick vegetation': np.int64(665), 'Sparse vegetation': np.int64(522), 'Barren rocky slope': np.int64(280), 'Jhum cultivation': np.int64(134), 'Extensive cut slope': np.int64(114), 'Settlement': np.int64(69), 'High height plantation': np.int64(31), 'Barren': np.int64(27), 'Extensive cut slope/settlement': np.int64(22)}
+
+Point records with a year in `history`: 1803 of 3372
+{'1969': 1, '1987': 1, '1990': 2, '1992': 2, '1995': 1, '1996': 1, '1998': 1, '2004': 1, '2007': 6, '2008': 1, '2009': 1, '2010': 6, '2011': 4, '2012': 4, '2013': 2, '2014': 10, '2015': 43, '2016': 291, '2017': 124, '2018': 78, '2019': 193, '2020': 8, '2021': 8, '2022': 67, '2023': 130, '2024': 449, '2025': 368}

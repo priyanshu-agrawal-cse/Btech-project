@@ -1,0 +1,21 @@
+a_geometry_types_all_india: {'Point': 30842}
+a_records_all_india: 30842
+records_inside_mizoram: 2041
+b_location_field_filled: 2000
+b_location_mentions_road_terms: 1222
+b_location_examples_without_road_terms: {'N. Of New Vervek': 10, 'Champhai': 10, 'N of Bukpui': 9, 'Chhippui village': 9, 'E Rotlang- S. Mualthuam': 9, 'North Chaltlang': 7, 'Darzo-Tuipui D': 7, 'Ngopa village, 0 point to Tuivai river': 6, 'outside Ajasora village': 6, 'Nw of Khwazawl': 5, 'Hunther area': 5, 'South of Bukpui village': 5}
+b_landuse_mentions_cut_or_road: 302
+b_landuse_mentions_settlement: 128
+c_gsi_unique_locations_in_state: 1875
+c_unique_locations_kept_in_phase2: 1492
+c_unique_locations_lost_in_phase2: 383
+c_lost_share_of_unique_locations: 0.20426666666666668
+c_records_kept_of_2041: 1652
+d_coolr_accuracy_all_44: {'5km': 14, '1km': 10, '25km': 7, '50km': 5, '10km': 4, 'exact': 2, 'missing': 1, '100km': 1}
+d_coolr_accuracy_inside_boundary: {'5km': 12, '1km': 10, '25km': 7, '50km': 5, '10km': 4, 'exact': 2, 'missing': 1, '100km': 1}
+e_footprint_m2_median: 120.0
+e_footprint_m2_p90: 1105.4389999999992
+e_footprint_m2_max: 120000.0
+e_share_records_with_footprint_at_most_one_pixel: 0.8809034907597536
+e_records_with_footprint: 1948
+EXIT_CODE=0

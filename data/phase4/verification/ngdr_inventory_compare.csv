@@ -1,0 +1,5 @@
+layer,n,within_60m_of_road_pct,median_road_dist_m,within_150m_of_training_pct,unseen_beyond_150m
+"NGDR points, all",3372,74.35,0.0,64.92,1183
+"NGDR polygons, data_type=Mapped as point bufferred to polygon",1057,53.93,30.0,61.59,406
+"NGDR polygons, data_type=Mapped as polygon",1774,25.37,881.0,18.94,1438
+"NGDR polygons, all",4254,45.09,136.0,36.2,2714

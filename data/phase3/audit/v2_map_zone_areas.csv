@@ -1,0 +1,6 @@
+zone,p_from,p_to,area_pct
+Very Low,0.0,0.2,26.498
+Low,0.2,0.4,24.281
+Moderate,0.4,0.6,22.859
+High,0.6,0.8,19.432
+Very High,0.8,1.0,6.93

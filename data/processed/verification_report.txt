@@ -1,0 +1,75 @@
+TOPOGRAPHIC PIPELINE VERIFICATION REPORT
+
+--- Verification for Original 8 Copernicus Tiles ---
+Tile found: Copernicus_DSM_COG_10_N21_00_E092_00_DEM.tif (AWS Path: https://copernicus-dem-30m.s3.amazonaws.com/Copernicus_DSM_COG_10_N21_00_E092_00_DEM/Copernicus_DSM_COG_10_N21_00_E092_00_DEM.tif)
+Tile found: Copernicus_DSM_COG_10_N21_00_E093_00_DEM.tif (AWS Path: https://copernicus-dem-30m.s3.amazonaws.com/Copernicus_DSM_COG_10_N21_00_E093_00_DEM/Copernicus_DSM_COG_10_N21_00_E093_00_DEM.tif)
+Tile found: Copernicus_DSM_COG_10_N22_00_E092_00_DEM.tif (AWS Path: https://copernicus-dem-30m.s3.amazonaws.com/Copernicus_DSM_COG_10_N22_00_E092_00_DEM/Copernicus_DSM_COG_10_N22_00_E092_00_DEM.tif)
+Tile found: Copernicus_DSM_COG_10_N22_00_E093_00_DEM.tif (AWS Path: https://copernicus-dem-30m.s3.amazonaws.com/Copernicus_DSM_COG_10_N22_00_E093_00_DEM/Copernicus_DSM_COG_10_N22_00_E093_00_DEM.tif)
+Tile found: Copernicus_DSM_COG_10_N23_00_E092_00_DEM.tif (AWS Path: https://copernicus-dem-30m.s3.amazonaws.com/Copernicus_DSM_COG_10_N23_00_E092_00_DEM/Copernicus_DSM_COG_10_N23_00_E092_00_DEM.tif)
+Tile found: Copernicus_DSM_COG_10_N23_00_E093_00_DEM.tif (AWS Path: https://copernicus-dem-30m.s3.amazonaws.com/Copernicus_DSM_COG_10_N23_00_E093_00_DEM/Copernicus_DSM_COG_10_N23_00_E093_00_DEM.tif)
+Tile found: Copernicus_DSM_COG_10_N24_00_E092_00_DEM.tif (AWS Path: https://copernicus-dem-30m.s3.amazonaws.com/Copernicus_DSM_COG_10_N24_00_E092_00_DEM/Copernicus_DSM_COG_10_N24_00_E092_00_DEM.tif)
+Tile found: Copernicus_DSM_COG_10_N24_00_E093_00_DEM.tif (AWS Path: https://copernicus-dem-30m.s3.amazonaws.com/Copernicus_DSM_COG_10_N24_00_E093_00_DEM/Copernicus_DSM_COG_10_N24_00_E093_00_DEM.tif)
+
+
+--- Verification for Merged DEM (WGS84) ---
+File: data/raw/mizoram_dem_copernicus_30m.tif
+CRS: EPSG:4326
+Resolution (pixel size): (0.0002777777777777778, 0.0002777777777777778)
+Dimensions: width=7200, height=14400
+Bounds: BoundingBox(left=91.99986111111112, bottom=21.000138888888888, right=93.99986111111112, top=25.000138888888888)
+NoData Value: None
+Min: -15.33
+Max: 3077.34
+Mean: 632.43
+
+
+--- Verification for Clipped DEM (UTM46N) ---
+File: data/derived/mizoram_dem_clipped_utm.tif
+CRS: EPSG:32646
+Resolution (pixel size): (30.30677783674102, 30.30677783674102)
+Dimensions: width=3959, height=9437
+Bounds: BoundingBox(left=424632.1901112319, bottom=2426172.2771567237, right=544616.7235668895, top=2712177.3396020485)
+NoData Value: None
+Min: 0.00
+Max: 2155.50
+Mean: 375.08
+
+
+--- Verification for Slope ---
+File: data/derived/mizoram_slope.tif
+CRS: EPSG:32646
+Resolution (pixel size): (30.30677783674102, 30.30677783674102)
+Dimensions: width=3959, height=9437
+Bounds: BoundingBox(left=424632.1901112319, bottom=2426172.2771567237, right=544616.7235668895, top=2712177.3396020485)
+NoData Value: -9999.0
+Min: 0.00
+Max: 88.18
+Mean: 14.14
+
+
+--- Verification for Aspect ---
+File: data/derived/mizoram_aspect.tif
+CRS: EPSG:32646
+Resolution (pixel size): (30.30677783674102, 30.30677783674102)
+Dimensions: width=3959, height=9437
+Bounds: BoundingBox(left=424632.1901112319, bottom=2426172.2771567237, right=544616.7235668895, top=2712177.3396020485)
+NoData Value: -9999.0
+Min: -1.00
+Max: 360.00
+Mean: 110.43
+
+
+--- Verification for Curvature ---
+File: data/derived/mizoram_curvature.tif
+CRS: EPSG:32646
+Resolution (pixel size): (30.30677783674102, 30.30677783674102)
+Dimensions: width=3959, height=9437
+Bounds: BoundingBox(left=424632.1901112319, bottom=2426172.2771567237, right=544616.7235668895, top=2712177.3396020485)
+NoData Value: -9999.0
+Min: -385.33
+Max: 450.57
+Mean: -0.00
+
+
+--- Alignment Verification ---
+SUCCESS: Elevation, Slope, Aspect, and Curvature have perfectly identical CRS, extent, dimensions, and pixel alignment.

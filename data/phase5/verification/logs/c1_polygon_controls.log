@@ -1,0 +1,17 @@
+{'block_km': 10, 'features': 'full', 'n_features': 21, 'test_p_gsi_only': np.float64(0.6799), 'test_p_with_polygons': np.float64(0.9234), 'gain': np.float64(0.2435)}
+{'block_km': 10, 'features': 'coords', 'n_features': 2, 'test_p_gsi_only': np.float64(0.7024), 'test_p_with_polygons': np.float64(0.8919), 'gain': np.float64(0.1895)}
+{'block_km': 10, 'features': 'regional', 'n_features': 7, 'test_p_gsi_only': np.float64(0.4933), 'test_p_with_polygons': np.float64(0.8202), 'gain': np.float64(0.3269)}
+{'block_km': 10, 'features': 'local', 'n_features': 14, 'test_p_gsi_only': np.float64(0.7424), 'test_p_with_polygons': np.float64(0.8971), 'gain': np.float64(0.1547)}
+{'block_km': 20, 'features': 'full', 'n_features': 21, 'test_p_gsi_only': np.float64(0.6754), 'test_p_with_polygons': np.float64(0.9069), 'gain': np.float64(0.2315)}
+{'block_km': 20, 'features': 'coords', 'n_features': 2, 'test_p_gsi_only': np.float64(0.6858), 'test_p_with_polygons': np.float64(0.8525), 'gain': np.float64(0.1667)}
+{'block_km': 20, 'features': 'regional', 'n_features': 7, 'test_p_gsi_only': np.float64(0.463), 'test_p_with_polygons': np.float64(0.7343), 'gain': np.float64(0.2712)}
+{'block_km': 20, 'features': 'local', 'n_features': 14, 'test_p_gsi_only': np.float64(0.7343), 'test_p_with_polygons': np.float64(0.895), 'gain': np.float64(0.1607)}
+{'block_km': 30, 'features': 'full', 'n_features': 21, 'test_p_gsi_only': np.float64(0.6762), 'test_p_with_polygons': np.float64(0.8795), 'gain': np.float64(0.2033)}
+{'block_km': 30, 'features': 'coords', 'n_features': 2, 'test_p_gsi_only': np.float64(0.6701), 'test_p_with_polygons': np.float64(0.8362), 'gain': np.float64(0.1661)}
+{'block_km': 30, 'features': 'regional', 'n_features': 7, 'test_p_gsi_only': np.float64(0.4506), 'test_p_with_polygons': np.float64(0.5972), 'gain': np.float64(0.1466)}
+{'block_km': 30, 'features': 'local', 'n_features': 14, 'test_p_gsi_only': np.float64(0.7433), 'test_p_with_polygons': np.float64(0.8857), 'gain': np.float64(0.1424)}
+{'block_km': 50, 'features': 'full', 'n_features': 21, 'test_p_gsi_only': np.float64(0.6545), 'test_p_with_polygons': np.float64(0.8491), 'gain': np.float64(0.1945)}
+{'block_km': 50, 'features': 'coords', 'n_features': 2, 'test_p_gsi_only': np.float64(0.7292), 'test_p_with_polygons': np.float64(0.8272), 'gain': np.float64(0.098)}
+{'block_km': 50, 'features': 'regional', 'n_features': 7, 'test_p_gsi_only': np.float64(0.4052), 'test_p_with_polygons': np.float64(0.5848), 'gain': np.float64(0.1796)}
+{'block_km': 50, 'features': 'local', 'n_features': 14, 'test_p_gsi_only': np.float64(0.7426), 'test_p_with_polygons': np.float64(0.8854), 'gain': np.float64(0.1428)}
+C1 finished.

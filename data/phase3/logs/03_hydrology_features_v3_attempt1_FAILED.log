@@ -1,0 +1,31 @@
+Cell 30.3068 m (918.5 m2); stream threshold = 1089 cells (1 km2)
+  WBT breach_depressions_least_cost: OK
+  WBT d_inf_flow_accumulation: OK
+  WBT d8_pointer: OK
+  WBT d8_flow_accumulation: OK
+  WBT extract_streams: OK
+  WBT elevation_above_stream: OK
+Traceback (most recent call last):
+  File "rasterio/_base.pyx", line 322, in rasterio._base.DatasetBase.__init__
+  File "rasterio/_base.pyx", line 234, in rasterio._base.open_dataset
+  File "rasterio/_err.pyx", line 359, in rasterio._err.exc_wrap_pointer
+rasterio._err.CPLE_OpenFailedError: data/phase3/work/hydro/dinf_sca.tif: No such file or directory
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "scripts/phase3/03_hydrology_features_v3.py", line 96, in <module>
+    sca = crop(read_padded("dinf_sca.tif"))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "scripts/phase3/03_hydrology_features_v3.py", line 73, in read_padded
+    with rasterio.open(os.path.join(WORK, name)) as s:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<python-site-packages>/rasterio/env.py", line 464, in wrapper
+    return f(*args, **kwds)
+           ^^^^^^^^^^^^^^^^
+  File "<python-site-packages>/rasterio/__init__.py", line 367, in open
+    dataset = DatasetReader(path, driver=driver, sharing=sharing, thread_safe=thread_safe, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "rasterio/_base.pyx", line 331, in rasterio._base.DatasetBase.__init__
+rasterio.errors.RasterioIOError: data/phase3/work/hydro/dinf_sca.tif: No such file or directory
+EXIT_CODE=1

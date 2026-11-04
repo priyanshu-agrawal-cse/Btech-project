@@ -1,0 +1,88 @@
+{
+  "gsi_records_inside_boundary": 2041,
+  "gsi_identical_coordinate_duplicates": 165,
+  "gsi_unique_locations": 1876,
+  "coolr_inside_boundary": 42,
+  "coolr_location_accuracy_counts": {
+    "5km": 12,
+    "1km": 10,
+    "25km": 7,
+    "50km": 5,
+    "10km": 4,
+    "exact": 2,
+    "100km": 1
+  },
+  "coolr_exact_kept": 2,
+  "locations_off_land_mask": 0,
+  "locations_used": 1878,
+  "positive_pixels": 1859,
+  "pixels_with_more_than_one_location": 19,
+  "positive_share_of_land": 8.111247748136115e-05,
+  "by_district": {
+    "Champhai": 443,
+    "Aizawl": 441,
+    "Lunglei": 379,
+    "Lawngtlai": 173,
+    "Serchhip": 148,
+    "Mamit": 130,
+    "Saiha": 79,
+    "Kolasib": 78,
+    "Lawngtlai\r\n": 2,
+    "Mizoram": 2,
+    "Ukhrul": 1,
+    "Hailakandi": 1,
+    "Saiha\r\n": 1
+  },
+  "gsi_triggering": {
+    "rainfall": 1451,
+    "": 209,
+    "rainfall and anthropogenic": 147,
+    "anthropogenic": 110,
+    "rainfall, anthropogenic": 108,
+    "heavy rainfall": 3,
+    "heavy rainfall prior to landsliding reported": 3,
+    "anthropogenic (quarrying)": 1,
+    "rainfall (strong winds)": 1,
+    "overloading of slope, high unguided discharge of monsoon rain": 1
+  },
+  "gsi_material_type": {
+    "Debris": 1094,
+    "Rock": 819,
+    "Earth": 62,
+    "Soil": 58,
+    "Rock cum Debris": 8
+  },
+  "gsi_movement_type": {
+    "Slide": 1902,
+    "Fall": 114,
+    "Flow": 16,
+    "Subsidence": 9
+  },
+  "gsi_activity": {
+    "Active": 1123,
+    "Suspended": 551,
+    "Reactivated": 132,
+    "Stabilized": 99,
+    "Dormant": 54,
+    " ": 39,
+    "Inactive": 30,
+    "Relict": 11,
+    "Abandoned": 2
+  },
+  "gsi_length_m_median": 11.0,
+  "gsi_width_m_median": 10.0,
+  "gsi_length_m_p90": 40.0,
+  "gsi_width_m_p90": 30.0,
+  "gsi_depth_m_median": 0.5,
+  "gsi_runout_m_median": 0.0,
+  "gsi_citations_top": {
+    "Patra, S. K & Tushipokla (2018); MacroScale (1:50,000) Landslide Susceptibility Mapping in Toposheet nos.\n84E/03, 84E/07": 251,
+    "Rinmuanpuii, P. and Jena, D. K., 2020. Macro-Scale (1:50,000) Landslide Susceptibility Mapping in parts of toposheet nos": 182,
+    "Limpou L et al., 2016. Macro-scale (1:50,000) landslide susceptibility Mapping in parts of toposheets no. 84A/10, 14, Ai": 175,
+    "Singh, Maibam Pradipkanta and Kapfo, Kowe\u251c\u255d, 2018; MacroScale (1:50,000) Landslide Susceptibility Mapping in parts of To": 159,
+    "Limpou.,L. And  Tushipokla., 2017.Macro-Scale (1:50,000) Landslide Susceptibility Mapping in parts of Toposheets nos. 84": 152,
+    " ": 147,
+    "Patra S.K., and Soraisam. C, 2017.  Macro-Scale (1:50,000) Landslide Susceptibility Mapping in Toposheet nos. 83 D/12 & ": 132,
+    "Limpou. L. and  Soraisam. C. (2018) Macroscale (1:50,00) Landslide Susceptibility Mapping  in parts of Toposheet Nos. 84": 126
+  }
+}

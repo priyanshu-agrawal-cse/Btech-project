@@ -1,0 +1,5 @@
+QGIS 3.44.15-Solothurn
+PASS mizoram_landslide_zones_v3_natural paletted {'1': {'colour': '#fbe3d0', 'label': 'Very Low'}, '2': {'colour': '#f6b68c', 'label': 'Low'}, '3': {'colour': '#eb6834', 'label': 'Moderate'}, '4': {'colour': '#b8431c', 'label': 'High'}, '5': {'colour': '#6f2108', 'label': 'Very High'}} {'#fbe3d0': 18072, '#f6b68c': 26396, '#eb6834': 23861, '#b8431c': 16458, '#6f2108': 7973}
+PASS mizoram_landslide_zones_v3 paletted {'1': {'colour': '#fbe3d0', 'label': 'Very Low'}, '2': {'colour': '#f6b68c', 'label': 'Low'}, '3': {'colour': '#eb6834', 'label': 'Moderate'}, '4': {'colour': '#b8431c', 'label': 'High'}, '5': {'colour': '#6f2108', 'label': 'Very High'}} {'#fbe3d0': 55411, '#f6b68c': 18737, '#eb6834': 8117, '#b8431c': 6150, '#6f2108': 4345}
+PASS mizoram_landslide_zones_v5_natural paletted {'1': {'colour': '#fbe3d0', 'label': 'Very Low'}, '2': {'colour': '#f6b68c', 'label': 'Low'}, '3': {'colour': '#eb6834', 'label': 'Moderate'}, '4': {'colour': '#b8431c', 'label': 'High'}, '5': {'colour': '#6f2108', 'label': 'Very High'}} {'#fbe3d0': 26946, '#f6b68c': 26555, '#eb6834': 19821, '#b8431c': 12428, '#6f2108': 7010}
+RESULT PASS

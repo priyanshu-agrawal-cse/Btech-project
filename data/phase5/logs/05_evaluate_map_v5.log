@@ -1,0 +1,28 @@
+Reading v5 final and out-of-fold rasters...
+Total training landslide cells: 3,293
+
+Computing natural breaks on 1,000,000 land cell sample (seed 42)...
+Natural break thresholds: [0.17479999363422394, 0.30649998784065247, 0.4618000090122223, 0.6632000207901001]
+Saved zonation map to data/final/mizoram_landslide_zones_v5_natural.tif
+
+Zone Statistics (v5 Natural):
+     zone  score_from  score_to  area_pct  landslide_pct_training  FR_training  area_pct_oof  landslide_pct_spatial_oof  FR_spatial_oof
+ Very Low      0.0000    0.1748    29.129                   0.152        0.005        26.046                      5.709           0.219
+      Low      0.1748    0.3065    28.567                   3.067        0.107        28.677                     11.236           0.392
+ Moderate      0.3065    0.4618    21.249                   8.958        0.422        22.901                     14.941           0.652
+     High      0.4618    0.6632    13.505                  20.984        1.554        14.678                     20.923           1.426
+Very High      0.6632    1.0000     7.550                  66.839        8.853         7.698                     47.191           6.130
+
+Extracting NGDR points from 2024 onward...
+Total NGDR points from 2024 onward inside region: 813
+NGDR 2024+ test set: 813 records, 710 >150m from training, 708 unique land pixels
+
+Independent Test Results on 2024+ NGDR Points:
+                                  Model                                   Test_Set  Test_Pixels    AUC  Top_5pct_land_captured  Top_20pct_land_captured
+Natural-terrain map v5 (GSI + Polygons) NGDR 2024 onward (>150m from all training)          708 0.7582                   20.76                    60.45
+      Natural-terrain map v3 (GSI only) NGDR 2024 onward (>150m from all training)          708 0.7878                   34.18                    66.10
+                      All-factor map v3 NGDR 2024 onward (>150m from all training)          708 0.9162                   73.16                    89.83
+         Road distance alone (baseline) NGDR 2024 onward (>150m from all training)          708 0.9296                   72.46                    92.66
+
+Saved data/phase5/maps/independent_validation_2024_v5.csv
+Step 05 complete.

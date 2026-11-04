@@ -1,0 +1,55 @@
+Polygons: mapped as polygon (primary): 1774 records, 1438 beyond 150 m, 1434 unique land pixels
+Polygons: point buffered to polygon: 1040 records, 406 beyond 150 m, 398 unique land pixels
+Polygons: blank data_type: 1423 records, 870 beyond 150 m, 865 unique land pixels
+Polygons: all: 4237 records, 2714 beyond 150 m, 2697 unique land pixels
+Points: all NGDR: 3198 records, 1175 beyond 150 m, 1168 unique land pixels
+Points to 2015: 86 records, 20 beyond 150 m, 20 unique land pixels
+Points 2016-2019: 585 records, 14 beyond 150 m, 14 unique land pixels
+Points 2020-2023: 212 records, 189 beyond 150 m, 188 unique land pixels
+Points 2024 onward: 813 records, 719 beyond 150 m, 717 unique land pixels
+Points to 2015: 86 records, 20 beyond 150 m, 20 unique land pixels
+Points 2016-2019: 585 records, 14 beyond 150 m, 14 unique land pixels
+Points 2020-2023: 212 records, 189 beyond 150 m, 188 unique land pixels
+Points 2024 onward: 813 records, 719 beyond 150 m, 717 unique land pixels
+Points to 2015: 86 records, 20 beyond 150 m, 20 unique land pixels
+Points 2016-2019: 585 records, 14 beyond 150 m, 14 unique land pixels
+Points 2020-2023: 212 records, 189 beyond 150 m, 188 unique land pixels
+Points 2024 onward: 813 records, 719 beyond 150 m, 717 unique land pixels
+                          ranking                              test_set  test_pixels   AUC  captured_top_1pct  captured_top_5pct  captured_top_10pct  captured_top_20pct  AUC_within_60m_of_road  n_within_60m  within_60m_of_road_pct
+                All-factor map v3 Polygons: mapped as polygon (primary)         1434 0.554              5.158             10.737              15.342              21.757                   0.777           157                  10.948
+                All-factor map v3   Polygons: point buffered to polygon          398 0.573              3.764              9.040              13.568              25.099                   0.733            37                   9.296
+                All-factor map v3             Polygons: blank data_type          865 0.698             15.247             37.339              45.087              54.907                   0.692           371                  42.890
+                All-factor map v3                         Polygons: all         2697 0.603              8.188             19.018              24.620              32.882                   0.718           565                  20.949
+                All-factor map v3                      Points: all NGDR         1168 0.911             38.496             71.230              81.932              88.180                   0.776           870                  74.486
+           Natural-terrain map v3 Polygons: mapped as polygon (primary)         1434 0.692              2.160             10.304              20.550              39.809                   0.734           157                  10.948
+           Natural-terrain map v3   Polygons: point buffered to polygon          398 0.671              4.772             10.553              22.343              39.130                   0.692            37                   9.296
+           Natural-terrain map v3             Polygons: blank data_type          865 0.675              2.079             10.737              21.147              38.798                   0.614           371                  42.890
+           Natural-terrain map v3                         Polygons: all         2697 0.683              2.520             10.480              21.006              39.385                   0.653           565                  20.949
+           Natural-terrain map v3                      Points: all NGDR         1168 0.783             11.549             34.231              46.707              64.093                   0.766           870                  74.486
+Baseline: nearest to a road first Polygons: mapped as polygon (primary)         1434 0.429              2.992             10.226              13.125              19.141                   0.653           157                  10.948
+Baseline: nearest to a road first   Polygons: point buffered to polygon          398 0.493              2.591              8.333              12.043              22.111                   0.645            37                   9.296
+Baseline: nearest to a road first             Polygons: blank data_type          865 0.711             12.637             40.706              46.962              54.488                   0.678           371                  42.890
+Baseline: nearest to a road first                         Polygons: all         2697 0.529              6.026             19.722              23.818              30.916                   0.669           565                  20.949
+Baseline: nearest to a road first                      Points: all NGDR         1168 0.917             19.071             68.217              82.535              90.367                   0.631           870                  74.486
+               ranking                              test_set      zone  area_pct  landslide_pct  frequency_ratio
+     All-factor map v3 Polygons: mapped as polygon (primary)  Very Low     59.76          55.44             0.93
+     All-factor map v3 Polygons: mapped as polygon (primary)       Low     20.07          22.59             1.13
+     All-factor map v3 Polygons: mapped as polygon (primary)  Moderate      8.93           6.07             0.68
+     All-factor map v3 Polygons: mapped as polygon (primary)      High      6.60           5.58             0.85
+     All-factor map v3 Polygons: mapped as polygon (primary) Very High      4.64          10.32             2.22
+Natural-terrain map v3 Polygons: mapped as polygon (primary)  Very Low     19.46           1.39             0.07
+Natural-terrain map v3 Polygons: mapped as polygon (primary)       Low     28.68          17.92             0.62
+Natural-terrain map v3 Polygons: mapped as polygon (primary)  Moderate     25.43          31.80             1.25
+Natural-terrain map v3 Polygons: mapped as polygon (primary)      High     17.68          31.10             1.76
+Natural-terrain map v3 Polygons: mapped as polygon (primary) Very High      8.74          17.78             2.03
+                          ranking           test_set  records  test_pixels   AUC
+                All-factor map v3     BYYEAR to 2015     86.0         20.0 0.971
+                All-factor map v3   BYYEAR 2020-2023    212.0        188.0 0.933
+                All-factor map v3 BYYEAR 2024 onward    813.0        717.0 0.917
+           Natural-terrain map v3     BYYEAR to 2015     86.0         20.0 0.737
+           Natural-terrain map v3   BYYEAR 2020-2023    212.0        188.0 0.773
+           Natural-terrain map v3 BYYEAR 2024 onward    813.0        717.0 0.790
+Baseline: nearest to a road first     BYYEAR to 2015     86.0         20.0 0.972
+Baseline: nearest to a road first   BYYEAR 2020-2023    212.0        188.0 0.931
+Baseline: nearest to a road first BYYEAR 2024 onward    813.0        717.0 0.930
+Step 05 complete.

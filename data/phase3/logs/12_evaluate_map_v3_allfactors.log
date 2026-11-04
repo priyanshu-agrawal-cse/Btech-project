@@ -1,0 +1,14 @@
+Natural breaks: [0.13369999825954437, 0.2802000045776367, 0.48590001463890076, 0.722100019454956]
+     zone  score_from  score_to  area_pct  landslide_pct_training  FR_training  area_pct_oof  landslide_pct_spatial_oof  FR_spatial_oof  landslides_per_100km2_spatial_oof
+ Very Low       0.000     0.134    59.761                   0.484        0.008        59.435                      3.712           0.062                              0.551
+      Low       0.134     0.280    20.069                   3.012        0.150        20.077                      3.873           0.193                              1.704
+ Moderate       0.280     0.486     8.931                   4.895        0.548         9.219                      5.433           0.589                              5.204
+     High       0.486     0.722     6.599                  11.296        1.712         6.627                     11.619           1.753                             15.484
+Very High       0.722     1.000     4.639                  80.312       17.313         4.642                     75.363          16.236                            143.380
+{'curve': 'all-factor map, spatial out-of-fold (prediction rate)', 'AUC': np.float64(0.943), 'AUC_within_60m_of_road': np.float64(0.831), 'captured_in_top_1pct_area': 47.618, 'captured_in_top_5pct_area': 76.007, 'captured_in_top_10pct_area': 85.528, 'captured_in_top_20pct_area': 92.413, 'captured_in_top_30pct_area': 94.944}
+{'curve': 'all-factor map, final model (success rate, training data)', 'AUC': np.float64(0.966), 'AUC_within_60m_of_road': np.float64(0.862), 'captured_in_top_1pct_area': 53.528, 'captured_in_top_5pct_area': 81.488, 'captured_in_top_10pct_area': 90.747, 'captured_in_top_20pct_area': 96.501, 'captured_in_top_30pct_area': 98.655}
+{'curve': 'Map v2 (in-sample for most of these landslides)', 'AUC': np.float64(0.928), 'AUC_within_60m_of_road': np.float64(0.847), 'captured_in_top_1pct_area': 20.656, 'captured_in_top_5pct_area': 55.46, 'captured_in_top_10pct_area': 75.793, 'captured_in_top_20pct_area': 90.802, 'captured_in_top_30pct_area': 97.041}
+{'curve': 'Baseline: nearest to a road first', 'AUC': np.float64(0.919), 'AUC_within_60m_of_road': np.float64(0.701), 'captured_in_top_1pct_area': 24.164, 'captured_in_top_5pct_area': 72.441, 'captured_in_top_10pct_area': 80.332, 'captured_in_top_20pct_area': 88.084, 'captured_in_top_30pct_area': 93.061}
+{'curve': 'natural-terrain map, spatial out-of-fold', 'AUC': np.float64(0.734), 'AUC_within_60m_of_road': np.float64(0.726), 'captured_in_top_1pct_area': 6.823, 'captured_in_top_5pct_area': 23.988, 'captured_in_top_10pct_area': 36.719, 'captured_in_top_20pct_area': 52.982, 'captured_in_top_30pct_area': 65.71}
+Step 12 complete.
+EXIT_CODE=0

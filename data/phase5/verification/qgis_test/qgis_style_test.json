@@ -1,0 +1,138 @@
+{
+  "qgis_version": "3.44.15-Solothurn",
+  "style": "C:\\Users\\priya\\OneDrive\\Desktop\\4th year project\\MIZORAM_LANDSLIDE\\gis\\styles\\susceptibility_zones_v3.qml",
+  "maps": {
+    "mizoram_landslide_zones_v3_natural": {
+      "path": "data/final/mizoram_landslide_zones_v3_natural.tif",
+      "layer_valid": true,
+      "crs": "EPSG:32646",
+      "size": [
+        3959,
+        9437
+      ],
+      "style_loaded": true,
+      "style_message": "",
+      "renderer": "paletted",
+      "classes": {
+        "1": {
+          "colour": "#fbe3d0",
+          "label": "Very Low"
+        },
+        "2": {
+          "colour": "#f6b68c",
+          "label": "Low"
+        },
+        "3": {
+          "colour": "#eb6834",
+          "label": "Moderate"
+        },
+        "4": {
+          "colour": "#b8431c",
+          "label": "High"
+        },
+        "5": {
+          "colour": "#6f2108",
+          "label": "Very High"
+        }
+      },
+      "png_saved": true,
+      "png": "data/phase5/verification/qgis_test/mizoram_landslide_zones_v3_natural_qgis.png",
+      "rendered_pixels_by_colour": {
+        "#fbe3d0": 18072,
+        "#f6b68c": 26396,
+        "#eb6834": 23861,
+        "#b8431c": 16458,
+        "#6f2108": 7973
+      },
+      "pass": true
+    },
+    "mizoram_landslide_zones_v3": {
+      "path": "data/final/mizoram_landslide_zones_v3.tif",
+      "layer_valid": true,
+      "crs": "EPSG:32646",
+      "size": [
+        3959,
+        9437
+      ],
+      "style_loaded": true,
+      "style_message": "",
+      "renderer": "paletted",
+      "classes": {
+        "1": {
+          "colour": "#fbe3d0",
+          "label": "Very Low"
+        },
+        "2": {
+          "colour": "#f6b68c",
+          "label": "Low"
+        },
+        "3": {
+          "colour": "#eb6834",
+          "label": "Moderate"
+        },
+        "4": {
+          "colour": "#b8431c",
+          "label": "High"
+        },
+        "5": {
+          "colour": "#6f2108",
+          "label": "Very High"
+        }
+      },
+      "png_saved": true,
+      "png": "data/phase5/verification/qgis_test/mizoram_landslide_zones_v3_qgis.png",
+      "rendered_pixels_by_colour": {
+        "#fbe3d0": 55411,
+        "#f6b68c": 18737,
+        "#eb6834": 8117,
+        "#b8431c": 6150,
+        "#6f2108": 4345
+      },
+      "pass": true
+    },
+    "mizoram_landslide_zones_v5_natural": {
+      "path": "data/final/mizoram_landslide_zones_v5_natural.tif",
+      "layer_valid": true,
+      "crs": "EPSG:32646",
+      "size": [
+        3959,
+        9437
+      ],
+      "style_loaded": true,
+      "style_message": "",
+      "renderer": "paletted",
+      "classes": {
+        "1": {
+          "colour": "#fbe3d0",
+          "label": "Very Low"
+        },
+        "2": {
+          "colour": "#f6b68c",
+          "label": "Low"
+        },
+        "3": {
+          "colour": "#eb6834",
+          "label": "Moderate"
+        },
+        "4": {
+          "colour": "#b8431c",
+          "label": "High"
+        },
+        "5": {
+          "colour": "#6f2108",
+          "label": "Very High"
+        }
+      },
+      "png_saved": true,
+      "png": "data/phase5/verification/qgis_test/mizoram_landslide_zones_v5_natural_qgis.png",
+      "rendered_pixels_by_colour": {
+        "#fbe3d0": 26946,
+        "#f6b68c": 26555,
+        "#eb6834": 19821,
+        "#b8431c": 12428,
+        "#6f2108": 7010
+      },
+      "pass": true
+    }
+  }
+}

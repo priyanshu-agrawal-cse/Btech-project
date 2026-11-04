@@ -1,0 +1,21 @@
+ranking,test_set,pixels,AUC,captured_top_20pct
+Natural map v5,point buffered,398,0.7492,55.78
+Natural map v5,blank data_type,861,0.6806,39.01
+Natural map v5,all unused polygons,1259,0.7023,44.31
+Natural map v5,"unused, in sheets with training polygons",214,0.693,46.69
+Natural map v5,"unused, in sheets with no training polygons",1045,0.7042,43.82
+Natural map v3,point buffered,398,0.6713,39.13
+Natural map v3,blank data_type,861,0.6746,38.86
+Natural map v3,all unused polygons,1259,0.6736,38.95
+Natural map v3,"unused, in sheets with training polygons",214,0.5823,24.77
+Natural map v3,"unused, in sheets with no training polygons",1045,0.6922,41.85
+All-factor map v3,point buffered,398,0.5733,25.1
+All-factor map v3,blank data_type,861,0.6985,55.05
+All-factor map v3,all unused polygons,1259,0.6589,45.58
+All-factor map v3,"unused, in sheets with training polygons",214,0.7213,53.74
+All-factor map v3,"unused, in sheets with no training polygons",1045,0.6462,43.91
+Road distance,point buffered,398,0.4932,22.11
+Road distance,blank data_type,861,0.7125,54.63
+Road distance,all unused polygons,1259,0.6432,44.35
+Road distance,"unused, in sheets with training polygons",214,0.614,47.2
+Road distance,"unused, in sheets with no training polygons",1045,0.6492,43.76

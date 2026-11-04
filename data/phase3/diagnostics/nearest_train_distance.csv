@@ -1,0 +1,3 @@
+cv,median_m_any,p90_m_any,median_m_LS_to_trainLS,share_LS_test_within_100m_of_train_LS
+random 5-fold,30.307,557.184,30.307,1.0
+10 km blocks,1887.921,3804.318,3187.405,0.026

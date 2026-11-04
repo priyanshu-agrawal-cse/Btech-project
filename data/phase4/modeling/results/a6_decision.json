@@ -1,0 +1,11 @@
+{
+  "baseline_rule": 0.702,
+  "baseline_stored_mean": 0.702,
+  "v4_mean": 0.7014,
+  "v4_sd": 0.0039,
+  "gain_over_0.702": -0.0006,
+  "paired_gain_mean": -0.0006,
+  "seeds_better": 4,
+  "required_gain": 0.01,
+  "adopt_geology": false
+}

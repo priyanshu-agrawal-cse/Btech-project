@@ -1,0 +1,26 @@
+{'check': 'svm', 'fold': 0, 'setting': 'max_iter=2000', 'C': 8.23143373099555, 'gamma': 0.003741940611118496, 'iterations': 2000, 'fit_status': 1, 'ROC_AUC': 0.8975, 'seconds': 0.2}
+{'check': 'svm', 'fold': 0, 'setting': 'max_iter=-1', 'C': 8.23143373099555, 'gamma': 0.003741940611118496, 'iterations': 2888, 'fit_status': 0, 'ROC_AUC': 0.8977, 'seconds': 0.2}
+{'check': 'rf', 'fold': 0, 'setting': 'random_state=42', 'ROC_AUC': 0.9361}
+{'check': 'rf', 'fold': 0, 'setting': 'random_state=43', 'ROC_AUC': 0.9348}
+{'check': 'rf', 'fold': 0, 'setting': 'random_state=44', 'ROC_AUC': 0.935}
+{'check': 'svm', 'fold': 1, 'setting': 'max_iter=2000', 'C': 8.23143373099555, 'gamma': 0.003741940611118496, 'iterations': 2000, 'fit_status': 1, 'ROC_AUC': 0.901, 'seconds': 0.2}
+{'check': 'svm', 'fold': 1, 'setting': 'max_iter=-1', 'C': 8.23143373099555, 'gamma': 0.003741940611118496, 'iterations': 2982, 'fit_status': 0, 'ROC_AUC': 0.901, 'seconds': 0.2}
+{'check': 'rf', 'fold': 1, 'setting': 'random_state=42', 'ROC_AUC': 0.9412}
+{'check': 'rf', 'fold': 1, 'setting': 'random_state=43', 'ROC_AUC': 0.9416}
+{'check': 'rf', 'fold': 1, 'setting': 'random_state=44', 'ROC_AUC': 0.942}
+{'check': 'svm', 'fold': 2, 'setting': 'max_iter=2000', 'C': 8.23143373099555, 'gamma': 0.003741940611118496, 'iterations': 2000, 'fit_status': 1, 'ROC_AUC': 0.9085, 'seconds': 0.2}
+{'check': 'svm', 'fold': 2, 'setting': 'max_iter=-1', 'C': 8.23143373099555, 'gamma': 0.003741940611118496, 'iterations': 3001, 'fit_status': 0, 'ROC_AUC': 0.9085, 'seconds': 0.2}
+{'check': 'rf', 'fold': 2, 'setting': 'random_state=42', 'ROC_AUC': 0.9527}
+{'check': 'rf', 'fold': 2, 'setting': 'random_state=43', 'ROC_AUC': 0.9531}
+{'check': 'rf', 'fold': 2, 'setting': 'random_state=44', 'ROC_AUC': 0.9532}
+{'check': 'svm', 'fold': 3, 'setting': 'max_iter=2000', 'C': 8.23143373099555, 'gamma': 0.003741940611118496, 'iterations': 2000, 'fit_status': 1, 'ROC_AUC': 0.9169, 'seconds': 0.3}
+{'check': 'svm', 'fold': 3, 'setting': 'max_iter=-1', 'C': 8.23143373099555, 'gamma': 0.003741940611118496, 'iterations': 3012, 'fit_status': 0, 'ROC_AUC': 0.9169, 'seconds': 0.3}
+{'check': 'rf', 'fold': 3, 'setting': 'random_state=42', 'ROC_AUC': 0.9608}
+{'check': 'rf', 'fold': 3, 'setting': 'random_state=43', 'ROC_AUC': 0.9609}
+{'check': 'rf', 'fold': 3, 'setting': 'random_state=44', 'ROC_AUC': 0.9605}
+{'check': 'svm', 'fold': 4, 'setting': 'max_iter=2000', 'C': 8.23143373099555, 'gamma': 0.003741940611118496, 'iterations': 2000, 'fit_status': 1, 'ROC_AUC': 0.8993, 'seconds': 0.3}
+{'check': 'svm', 'fold': 4, 'setting': 'max_iter=-1', 'C': 8.23143373099555, 'gamma': 0.003741940611118496, 'iterations': 2635, 'fit_status': 0, 'ROC_AUC': 0.8993, 'seconds': 0.3}
+{'check': 'rf', 'fold': 4, 'setting': 'random_state=42', 'ROC_AUC': 0.9316}
+{'check': 'rf', 'fold': 4, 'setting': 'random_state=43', 'ROC_AUC': 0.93}
+{'check': 'rf', 'fold': 4, 'setting': 'random_state=44', 'ROC_AUC': 0.9315}
+V3 finished.

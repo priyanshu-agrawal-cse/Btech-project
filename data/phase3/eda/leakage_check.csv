@@ -1,0 +1,6 @@
+design,median_m_test_to_train,median_m_testLS_to_trainLS,share_testLS_within_100m_of_trainLS,share_testLS_within_1km_of_trainLS
+random 5-fold,951.411,539.597,0.12,0.664
+1 km blocks,1121.351,956.946,0.014,0.523
+5 km blocks,2261.767,2360.429,0.002,0.157
+10 km blocks,3390.704,3737.699,0.002,0.072
+20 km blocks,5207.345,6273.576,0.001,0.042

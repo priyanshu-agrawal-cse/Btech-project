@@ -1,0 +1,5 @@
+Model,Test_Set,Test_Pixels,AUC,Top_5pct_land_captured,Top_20pct_land_captured
+Natural-terrain map v5 (GSI + Polygons),NGDR 2024 onward (>150m from all training),708,0.7582,20.76,60.45
+Natural-terrain map v3 (GSI only),NGDR 2024 onward (>150m from all training),708,0.7878,34.18,66.1
+All-factor map v3,NGDR 2024 onward (>150m from all training),708,0.9162,73.16,89.83
+Road distance alone (baseline),NGDR 2024 onward (>150m from all training),708,0.9296,72.46,92.66

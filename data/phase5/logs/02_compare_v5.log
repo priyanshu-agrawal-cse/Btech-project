@@ -1,0 +1,49 @@
+Loading FINAL_DATASET_v5.csv and feature_list_natural.json...
+Features (21 natural): ['elevation', 'slope', 'aspect_sin', 'aspect_cos', 'curv_profile', 'curv_plan', 'tpi_270m', 'tpi_1km', 'tpi_3km', 'relief_1km', 'twi', 'spi_log', 'dist_stream', 'hand', 'dist_fault', 'map', 'max_precip', 'soil_clay_pct', 'soil_sand_pct', 'soil_bdod_gcm3', 'dist_river_osm']
+Model params: {'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.02230688315486874, 'subsample': 0.9798679636542122, 'colsample_bytree': 0.7543323327269813, 'reg_lambda': 10.593037595978041, 'min_child_weight': 12}
+Row counts — GSI train: 5,577, V5 train: 8,445, Test P: 2,868, Test R: 3,718
+
+Starting 10-seed repeated spatial CV comparison...
+Seed  1: Test P GSI=0.6834 -> V5=0.9247 (+0.2413) | Test R GSI=0.7042 -> V5=0.6983 (-0.0060)
+Seed  2: Test P GSI=0.6670 -> V5=0.9227 (+0.2557) | Test R GSI=0.6948 -> V5=0.6964 (+0.0016)
+Seed  3: Test P GSI=0.6853 -> V5=0.9250 (+0.2396) | Test R GSI=0.7037 -> V5=0.6976 (-0.0061)
+Seed  4: Test P GSI=0.6615 -> V5=0.9240 (+0.2625) | Test R GSI=0.6954 -> V5=0.6925 (-0.0029)
+Seed  5: Test P GSI=0.6895 -> V5=0.9248 (+0.2352) | Test R GSI=0.7012 -> V5=0.6958 (-0.0054)
+Seed  6: Test P GSI=0.6760 -> V5=0.9225 (+0.2465) | Test R GSI=0.7011 -> V5=0.6988 (-0.0023)
+Seed  7: Test P GSI=0.6741 -> V5=0.9221 (+0.2481) | Test R GSI=0.7047 -> V5=0.7017 (-0.0031)
+Seed  8: Test P GSI=0.6538 -> V5=0.9201 (+0.2663) | Test R GSI=0.6992 -> V5=0.6937 (-0.0055)
+Seed  9: Test P GSI=0.6633 -> V5=0.9238 (+0.2604) | Test R GSI=0.6929 -> V5=0.6928 (-0.0001)
+Seed 10: Test P GSI=0.6674 -> V5=0.9211 (+0.2537) | Test R GSI=0.7016 -> V5=0.6995 (-0.0021)
+
+Saved data/phase5/modeling/results/compare_v5.csv
+
+=== 10-SEED MEANS ===
+Test P (mapped polygons vs random negatives):
+  GSI-only mean ROC-AUC: 0.6721
+  V5 (GSI+poly) mean ROC-AUC: 0.9231
+  Mean Gain: +0.2509 (Threshold: >= +0.020)
+
+Test R (GSI roadside landslides vs road-matched negatives):
+  GSI-only mean ROC-AUC: 0.6999
+  V5 (GSI+poly) mean ROC-AUC: 0.6967
+  Mean Change: -0.0032 (Threshold: >= -0.010)
+
+Decision saved to data/phase5/modeling/results/p1_decision.json:
+{
+  "task": "P1.3 Decision Rule",
+  "threshold_test_p_gain_min": 0.02,
+  "threshold_test_r_change_min": -0.01,
+  "mean_auc_gsi_test_p": 0.6721,
+  "mean_auc_v5_test_p": 0.9231,
+  "mean_gain_test_p": 0.2509,
+  "test_p_passed": true,
+  "mean_auc_gsi_test_r": 0.6999,
+  "mean_auc_v5_test_r": 0.6967,
+  "mean_change_test_r": -0.0032,
+  "test_r_passed": true,
+  "v5_model_adopted": true,
+  "decision": "ADOPTED",
+  "summary": "v5 model ADOPTED: Test P gained +0.2509 (>= 0.020) and Test R changed by -0.0032 (>= -0.010)."
+}
+
+Comparison complete.

@@ -1,0 +1,204 @@
+GRID rows 9437 cols 3959 px 30.3068; land cells 22,918,792; land km2 21,050.9
+land bounds lon/lat: [92.27, 93.44] [21.939, 24.522]
+elevation: min 18.0 max 2155.5 mean 611.4 sd 389.5
+slope: min 0.0 max 70.8 mean 22.8 sd 10.0
+MAP: min 1820.8 max 3373.0 mean 2610.6 sd 388.9
+max_precip: min 407.7 max 1475.4 mean 874.1 sd 266.0
+dist_fault: min 0.0 max 40189.7 mean 9837.5 sd 7288.7
+
+UNIVARIATE AUC (top)
+         feature    auc  ci_low  ci_high  strength
+   dist_road_any 0.0796  0.0647   0.0953    0.4204
+road_density_1km 0.8716  0.8550   0.8851    0.3716
+ dist_road_major 0.2030  0.1740   0.2413    0.2970
+       elevation 0.6622  0.6311   0.6925    0.1622
+         tpi_3km 0.6567  0.6273   0.6874    0.1567
+     dist_stream 0.6559  0.6299   0.6823    0.1559
+            hand 0.6505  0.6224   0.6799    0.1505
+           slope 0.6439  0.6232   0.6649    0.1439
+             tri 0.6431  0.6223   0.6667    0.1431
+         tpi_1km 0.6101  0.5815   0.6409    0.1101
+
+VIF top:   Unnamed: 0          vif
+curv_general 6.071924e+14
+   curv_plan 2.436929e+14
+curv_profile 1.866171e+14
+
+TUNED SUMMARY (real)
+              model  ROC_AUC_mean  PR_AUC_mean  F1_macro_mean  F1_LS_mean  MCC_mean
+      Random_Forest        0.9443       0.9479         0.8826      0.8806    0.7663
+            SVM_RBF        0.9104       0.8991         0.8417      0.8448    0.6876
+Logistic_Regression        0.8924       0.8691         0.8281      0.8324    0.6579
+PHASE 3 SUMMARY
+               model  ROC_AUC_mean  PR_AUC_mean  F1_macro_mean  F1_LS_mean  MCC_mean
+            LightGBM        0.9452       0.9492         0.8775      0.8761    0.7560
+Ensemble_RF_XGB_LGBM        0.9451       0.9485         0.8762      0.8753    0.7532
+             XGBoost        0.9450       0.9489         0.8776      0.8781    0.7554
+       Random_Forest        0.9422       0.9449         0.8789      0.8775    0.7585
+             SVM_RBF        0.9074       0.8936         0.8411      0.8457    0.6842
+ Logistic_Regression        0.8925       0.8704         0.8283      0.8334    0.6587
+BOOTSTRAP CI (real, Phase 3 only)
+               model  pooled_ROC_AUC  ci95_low  ci95_high
+ Logistic_Regression          0.8921    0.8760     0.9064
+             SVM_RBF          0.9071    0.8922     0.9203
+       Random_Forest          0.9415    0.9291     0.9522
+             XGBoost          0.9445    0.9328     0.9553
+            LightGBM          0.9431    0.9320     0.9538
+Ensemble_RF_XGB_LGBM          0.9447    0.9327     0.9546
+
+REPEATED CV max SD: {'All 25 factors, random negatives': 0.0015, 'All except roads, random negatives': 0.0049, 'Distance to road only': 0.0015, 'Natural 21 factors, tested on random negatives': 0.0039, 'Natural 21 factors, tested on road-matched negatives': 0.0045}
+
+V5 PARAMS: {"n_estimators": 450, "max_depth": 6, "learning_rate": 0.019691823629460935, "subsample": 0.690833191106142, "colsample_bytree": 0.9085622852524728, "reg_lambda": 7.266281937404228, "min_child_weight": 4}
+V5 IMPORTANCE
+       feature  perm_auc_drop_mean  perm_auc_drop_sd
+         slope             0.12945           0.01411
+           map             0.03910           0.01411
+    aspect_cos             0.02743           0.00829
+ soil_sand_pct             0.02241           0.00453
+     elevation             0.01479           0.00426
+  curv_profile             0.00763           0.00327
+           twi             0.00736           0.00390
+    dist_fault             0.00538           0.00169
+    relief_1km             0.00489           0.00147
+dist_river_osm             0.00404           0.00174
+V5 NESTED means: ROC_AUC     0.7994; PR_AUC      0.7435; F1_macro    0.7199; MCC         0.4433
+
+FILES
+data/phase3/inventory/inventory_fact_check.json exists True
+{
+  "a_geometry_types_all_india": {
+    "Point": 30842
+  },
+  "a_records_all_india": 30842,
+  "records_inside_mizoram": 2041,
+  "b_location_field_filled": 2000,
+  "b_location_mentions_road_terms": 1222,
+  "b_location_examples_without_road_terms": {
+    "N. Of New Vervek": 10,
+    "Champhai": 10,
+    "N of Bukpui": 9,
+    "Chhippui village": 9,
+    "E Rotlang- S. Mualthuam": 9,
+    "North Chaltlang": 7,
+    "Darzo-Tuipui D": 7,
+    "Ngopa village, 0 point to Tuivai river": 6,
+    "outside Ajasora village": 6,
+    "Nw of Khwazawl": 5,
+    "Hunther area": 5,
+    "South of Bukpui village": 5
+  },
+  "b_landuse_mentions_cut_or_road": 302,
+  "b_landuse_mentions_settlement": 128,
+  "c_gsi_unique_locations_in_state": 1875,
+  "c_unique_locations_kept_in_phase2": 1492,
+  "c_unique_locations_lost_in_phase2": 383,
+  "c_lost_share_of_unique_locations": 0.20426666666666668,
+  "c_records_kept_of_2041": 
+DEM tiles: []
+boundary shp: False
+osm: data/raw/osm\mizoram_osm_rivers.gpkg 1753088
+osm: data/raw/osm\mizoram_osm_roads.gpkg 23400448
+data/phase3/features\glim_summary.json: {
+  "archive": "GLiM_LiMW_GIS_2015.gdb.zip",
+  "layer": "GLiM_export",
+  "n_polygons": 32,
+  "area_share_pct_xx": {
+    "ss": 99.612,
+    "sm": 0.336,
+    "su": 0.052
+  },
+  "area_share_pct_Litho": {
+    "ssmx__": 98.565,
+    "sssscl": 0.836,
+    "smmx__": 0.336,
+    "ssss__": 0.199,
+    "sumx__": 0.052,
+    "sssh__": 0.011
+  },
+  "area_share_pct_IDENTITY_": {
+    "IND47": 76.589,
+    "IND54": 5.862,
+    "IND60": 2.597,
+    "IND56": 2.247,
+    "IND66": 1.949,
+    "IND63": 1.857,
+    "IND53": 1.4
+data/phase3/features\ndvi_summary.json: {
+  "collection": "sentinel-2-l2a",
+  "period": "2021-11-01/2022-01-20",
+  "scenes_used": 48,
+  "tiles": [
+    "46QDK",
+    "46QDL",
+    "46QDM",
+    "46QEK",
+    "46QEL",
+    "46QEM",
+    "46RDN",
+    "46REN"
+  ],
+  "scene_ids": [
+    "S2B_MSIL2A_20220108T042139_R090_T46QDK_20220111T040046",
+    "S2A_MSIL2A_20211124T042111_R090_T46QDK_20211124T120252",
+    "S2B_MSIL2A_20211229T042149_R090_T46QDK_20211229T155612",
+    "S2B_MSIL2A_20211119T042049_R090_T46QDK_20211119T152748",
+    "S2B_MSIL2A_2021
+data/phase3/features\osm_summary.json: {
+  "pbf": "north-eastern-zone-261027.osm.pbf",
+  "pbf_url": "https://download.geofabrik.de/asia/india/north-eastern-zone-261027.osm.pbf",
+  "road_ways": 23051,
+  "river_ways": 318,
+  "road_km_inside_state_by_class": {
+    "construction": 11.6,
+    "living_street": 0.5,
+    "primary": 1127.3,
+    "residential": 2236.9,
+    "road": 6.1,
+    "secondary": 626.2,
+    "service": 205.2,
+    "tertiary": 990.5,
+    "track": 1724.4,
+    "trunk": 1444.7,
+    "trunk_link": 2.9,
+    "unclassified": 5770.8
+ 
+data/phase3/features\soilgrids_summary.json: {
+  "soil_clay_pct": {
+    "min": 27.2177734375,
+    "mean": 36.0992546081543,
+    "max": 48.510555267333984,
+    "missing_share_of_land": 0.0010792453633682308,
+    "source": "https://files.isric.org/soilgrids/latest/data/clay/clay_30-60cm_mean.vrt"
+  },
+  "soil_sand_pct": {
+    "min": 13.106581687927246,
+    "mean": 28.023357391357422,
+    "max": 40.37929916381836,
+    "missing_share_of_land": 0.0010792453633682308,
+    "source": "https://files.isric.org/soilgrids/latest/data/sand/sand_30-60cm
+data/phase3/inventory\inventory_v3_summary.json: {
+  "gsi_records_inside_boundary": 2041,
+  "gsi_identical_coordinate_duplicates": 165,
+  "gsi_unique_locations": 1876,
+  "coolr_inside_boundary": 42,
+  "coolr_location_accuracy_counts": {
+    "5km": 12,
+    "1km": 10,
+    "25km": 7,
+    "50km": 5,
+    "10km": 4,
+    "exact": 2,
+    "100km": 1
+  },
+  "coolr_exact_kept": 2,
+  "locations_off_land_mask": 0,
+  "locations_used": 1878,
+  "positive_pixels": 1859,
+  "pixels_with_more_than_one_location": 19,
+  "positive_share_of_land": 8.111247748136115e-
+
+CITED PATHS IN FINAL_REPORT.md THAT DO NOT EXIST
+checked 61; missing 3
+  data/phase4/modeling/results/tuned_baselines_corrected_comparison.csv
+  data/processed/boundary/mizoram_boundary_utm.shp
+  data/raw/prof_document.txt:L893-L975

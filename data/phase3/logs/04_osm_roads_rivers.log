@@ -1,0 +1,9 @@
+Re-using saved extracts data/raw/osm/mizoram_osm_roads.gpkg and data/raw/osm/mizoram_osm_rivers.gpkg (from https://download.geofabrik.de/asia/india/north-eastern-zone-261027.osm.pbf)
+Padded grid bbox (lon/lat): 92.157 21.847 93.540 24.614
+Extracted 23,051 road ways and 318 river ways
+  road length inside Mizoram: 14,147.2 km
+  dist_road_any    min=     0.0 median=   862.0 mean=  1318.8 max=   9666.2 m
+  dist_road_major  min=     0.0 median=  3170.8 mean=  4207.6 max=  23785.6 m
+  dist_river_osm   min=     0.0 median=  2141.5 mean=  2449.8 max=  10718.6 m
+OSM features complete.
+EXIT_CODE=0

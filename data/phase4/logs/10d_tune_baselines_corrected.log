@@ -1,0 +1,28 @@
+Main table (3718, 32), positives 1859, blocks 243, trials per tuning 15
+  fold 0 lr: inner AUC 0.8954, test AUC 0.8833, {'C': 0.22590683633417624}
+  fold 0 svm: inner AUC 0.9025, test AUC 0.9078, {'C': 10.49012635845362, 'gamma': 0.009829148509555135}
+  fold 0 rf: inner AUC 0.9447, test AUC 0.9361, {'n_estimators': 400, 'max_depth': 14, 'min_samples_leaf': 8, 'max_features': 0.4}
+fold 0 done in 133s
+  fold 1 lr: inner AUC 0.8945, test AUC 0.8908, {'C': 5.396408491674145}
+  fold 1 svm: inner AUC 0.9063, test AUC 0.9038, {'C': 7.411808356936276, 'gamma': 0.007257145820710025}
+  fold 1 rf: inner AUC 0.9433, test AUC 0.9412, {'n_estimators': 300, 'max_depth': 9, 'min_samples_leaf': 5, 'max_features': 0.4}
+fold 1 done in 115s
+  fold 2 lr: inner AUC 0.8917, test AUC 0.9021, {'C': 53.37053103183775}
+  fold 2 svm: inner AUC 0.9079, test AUC 0.9091, {'C': 5.759864844811498, 'gamma': 0.012096356746661298}
+  fold 2 rf: inner AUC 0.9392, test AUC 0.9527, {'n_estimators': 400, 'max_depth': 14, 'min_samples_leaf': 8, 'max_features': 0.4}
+fold 2 done in 122s
+  fold 3 lr: inner AUC 0.8857, test AUC 0.8992, {'C': 56.69849511478853}
+  fold 3 svm: inner AUC 0.9053, test AUC 0.9277, {'C': 5.759864844811498, 'gamma': 0.012096356746661298}
+  fold 3 rf: inner AUC 0.9409, test AUC 0.9601, {'n_estimators': 400, 'max_depth': 9, 'min_samples_leaf': 5, 'max_features': 0.4}
+fold 3 done in 116s
+  fold 4 lr: inner AUC 0.8957, test AUC 0.8865, {'C': 21.42302175774105}
+  fold 4 svm: inner AUC 0.9081, test AUC 0.9037, {'C': 5.759864844811498, 'gamma': 0.012096356746661298}
+  fold 4 rf: inner AUC 0.9465, test AUC 0.9314, {'n_estimators': 400, 'max_depth': 9, 'min_samples_leaf': 8, 'max_features': 0.4}
+fold 4 done in 129s
+
+              model  untuned_ROC_AUC  tuned_ROC_AUC  delta_ROC_AUC  folds_better_AUC  untuned_F1_macro  tuned_F1_macro  delta_F1_macro  untuned_MCC  tuned_MCC  fold_SD_AUC
+Logistic_Regression           0.8925         0.8924        -0.0001                 3            0.8283          0.8281         -0.0002       0.6587     0.6579       0.0081
+            SVM_RBF           0.9074         0.9104         0.0030                 4            0.8411          0.8417          0.0006       0.6842     0.6876       0.0099
+      Random_Forest           0.9422         0.9443         0.0021                 4            0.8789          0.8826          0.0037       0.7585     0.7663       0.0118
+Reference: XGBoost 0.945, distance to road only 0.912 (repeated CV).
+Done in 616s

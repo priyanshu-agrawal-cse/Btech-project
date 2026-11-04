@@ -1,0 +1,20 @@
+GSI records inside Mizoram: 2,041; identical-coordinate duplicates merged: 165; unique locations: 1,876
+COOLR inside boundary: 42 (accuracy {'5km': 12, '1km': 10, '25km': 7, '50km': 5, '10km': 4, 'exact': 2, '100km': 1}); kept 'exact' & >150 m from GSI: 2
+  gsi_records_inside_boundary             : 2041
+  gsi_identical_coordinate_duplicates     : 165
+  gsi_unique_locations                    : 1876
+  coolr_inside_boundary                   : 42
+  coolr_exact_kept                        : 2
+  locations_off_land_mask                 : 0
+  locations_used                          : 1878
+  positive_pixels                         : 1859
+  pixels_with_more_than_one_location      : 19
+  positive_share_of_land                  : 8.111247748136115e-05
+  gsi_length_m_median                     : 11.0
+  gsi_width_m_median                      : 10.0
+  gsi_length_m_p90                        : 40.0
+  gsi_width_m_p90                         : 30.0
+  gsi_depth_m_median                      : 0.5
+  gsi_runout_m_median                     : 0.0
+Inventory v3 complete.
+EXIT_CODE=0

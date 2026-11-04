@@ -1,0 +1,65 @@
+PASS  item  0  road AUC, GSI: 0.919
+PASS  item  0  natural AUC, GSI: 0.734
+PASS  item  0  all-factor AUC, GSI: 0.943
+PASS  item  0  polygons, All-factor map v3: 0.554
+PASS  item  0  polygons, Natural-terrain map v3: 0.692
+PASS  item  0  polygons, Baseline: nearest to a road first: 0.429
+PASS  item  0  outside sheets pixels: 1,045
+PASS  item  0  outside sheets, Natural map v5: 0.704
+PASS  item  0  outside sheets, Natural map v3: 0.692
+PASS  item  0  outside sheets, All-factor map v3: 0.646
+PASS  item  0  outside sheets, Road distance: 0.649
+PASS  item  0  2024 pixels: 708
+PASS  item  0  2024, Natural-terrain map v5 (GSI + Polygons): 0.758
+PASS  item  0  2024, Natural-terrain map v3 (GSI only): 0.788
+PASS  item  0  2024, All-factor map v3: 0.916
+PASS  item  0  2024, Road distance alone (baseline): 0.930
+PASS  item  3  elevation: 18.0 to 2,155.5 m, mean 611.4 m
+PASS  item  3  slope: 0 to 70.8°, mean 22.8°
+PASS  item  3  rain: 1,820.8 to 3,373.0 mm, mean 2,610.6 mm
+PASS  item  3  max rain: 407.7 to 1,475.4 mm, mean 874.1 mm
+PASS  item 19  GSI records: 2,041
+PASS  item 19  duplicates: 165
+PASS  item 19  unique locations: 1,876
+PASS  item 19  locations used: 1,878
+PASS  item 19  pixels: 1,859
+PASS  item 20  neg_pool: 7,436
+PASS  item 22  table shape: 13,013 rows and 42 columns
+PASS  item 24  road density: 0.872
+PASS  item 24  elevation / slope: 0.662 / 0.644
+PASS  item 24  FR slope low: below 10°: 0.44
+PASS  item 24  FR slope high: above 40°: 1.93
+PASS  item 24  FR road: 0 to 30 m: 24.2
+PASS  item 24  FR shale: shale-dominant 1.33
+PASS  item 24  FR coal: coal-bearing 0.57
+PASS  item 28  XGB params: | 250 | 6 | 0.0128 | 0.883 | 0.603 | 3.22 | 5 |
+PASS  item 28  natural params: | 150 | 5 | 0.0223 | 0.980 | 0.754 | 10.59 | 12 |
+PASS  item 28  threshold: 0.46
+PASS  item 30  XGBoost: | XGBoost | 0.945 | 0.933 to 0.955 | 0.949 | 0.878 | 0.755 |
+PASS  item 30  LightGBM: | LightGBM | 0.945 | 0.932 to 0.954 | 0.949 | 0.878 | 0.756 |
+PASS  item 30  Ensemble: | Ensemble | 0.945 | 0.933 to 0.955 | 0.949 | 0.876 | 0.753 |
+PASS  item 30  Random Forest, tuned: | Random Forest, tuned | 0.944 | Not computed | 0.948 | 0.883 | 0.766 |
+PASS  item 30  SVM (RBF), tuned: | SVM (RBF), tuned | 0.910 | Not computed | 0.899 | 0.842 | 0.688 |
+PASS  item 30  Logistic Regression, tuned: | Logistic Regression, tuned | 0.892 | Not computed | 0.869 | 0.828 | 0.658 |
+PASS  item 30  road row: | **0.912** | | | **0.839** | **0.682** |
+PASS  item 31  roads importance: about 0.40
+PASS  item 31  natural importance: slope 0.093, mean annual rainfall 0.021, profile curvature 0.013, TWI 0.012
+PASS  item 32  Test P: 0.672 to 0.923
+PASS  item 32  Test R: −0.003
+PASS  item 32  coords: 0.892
+PASS  item 32  slope alone: 0.833
+PASS  item 32  direction: 1.9 % face north, 61.1 % south; all land is 22.5 % and 22.9 %
+PASS  item 32  footprint v5: v5: 14.4 % and 5.3 %
+PASS  item 32  footprint v3: v3: 7.3 % and 9.2 %
+PASS  item 32  3 sheets: 90.8 % lie in 3 map sheets
+PASS  item 33  zone Very Low: | Very Low | 27.1 / 7.9 | 19.5 / 1.4 | 59.8 / 55.4 |
+PASS  item 33  zone Low: | Low | 26.4 / 14.5 | 28.7 / 17.9 | 20.1 / 22.6 |
+PASS  item 33  zone Moderate: | Moderate | 22.4 / 19.2 | 25.4 / 31.8 | 8.9 / 6.1 |
+PASS  item 33  zone High: | High | 15.6 / 25.4 | 17.7 / 31.1 | 6.6 / 5.6 |
+PASS  item 33  zone Very High: | Very High | 8.4 / 33.1 | 8.7 / 17.8 | 4.6 / 10.3 |
+PASS  main log  Phase 1 RF: 0.7276
+PASS  main log  Phase 1 LR: 0.7051
+PASS  main log  coordinates, Phase 2: 0.8956
+PASS  main log  median distance: 3,738 m
+PASS  main log  closest negative: 135.5 m
+PASS  main log  breaching: ~15 min

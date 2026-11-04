@@ -1,0 +1,25 @@
+Opening feature raster sources...
+Starting windowed prediction across Mizoram...
+  row  1024/9437: 818,163 land cells, 8s
+  row  2048/9437: 3,468,486 land cells, 31s
+  row  3072/9437: 7,265,544 land cells, 60s
+  row  4096/9437: 11,054,014 land cells, 89s
+  row  5120/9437: 14,530,746 land cells, 114s
+  row  6144/9437: 17,315,770 land cells, 136s
+  row  7168/9437: 19,412,928 land cells, 151s
+  row  8192/9437: 21,515,968 land cells, 168s
+  row  9216/9437: 22,896,665 land cells, 178s
+  row 10240/9437: 22,918,792 land cells, 178s
+
+Final map saved to data/final/mizoram_landslide_susceptibility_v5_natural.tif (74.4 MB)
+OOF map saved to data/phase5/maps/susceptibility_v5_natural_spatial_oof.tif (74.2 MB)
+
+--- Verification Checks ---
+Land cells predicted: 22,918,792 (Expected: 22,918,792)
+Check 1 PASSED: Exactly 22,918,792 land cells predicted.
+Final map value range: [0.0159, 0.9843]
+Check 2 PASSED: Final map values strictly within [0, 1].
+OOF map value range: [0.0148, 0.9876]
+Check 3 PASSED: OOF map values strictly within [0, 1].
+Check 4 PASSED: Master grid profile and CRS verified.
+Prediction completed in 178.5s.

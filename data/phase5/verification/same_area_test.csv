@@ -1,0 +1,8 @@
+features,gsi_only,with_polygons,gain
+full 21 factors,0.7229,0.8934,0.1704
+local terrain only,0.7548,0.8932,0.1384
+coordinates only,0.5949,0.7377,0.1428
+"slope alone, no model",,0.8334,
+"elevation alone, no model",,0.5416,
+"aspect_cos alone, no model",,0.2195,
+"relief_1km alone, no model",,0.6162,

@@ -1,0 +1,111 @@
+==============================================================================
+A. MASTER DEM NODATA AUDIT
+==============================================================================
+  File            : data/derived/mizoram_dem_clipped_utm.tif
+  dtype / nodata  : float32 / None   (None = no NoData declared)
+  Grid cells      : 37,361,083
+  Cells == 0.0 m  : 14,442,291 (38.66 %)  <- out-of-state fill
+  Valid land cells: 22,918,792 (DEM > 0)
+  Phase 1/2 scripts used `nodata if not None else -9999`, so the 0.0 m fill
+  was treated as VALID terrain in 01d_prepare_expanded_dataset.py, 01b, 11, ...
+
+==============================================================================
+B. DOCUMENTED STATISTICS vs INSIDE-STATE STATISTICS
+==============================================================================
+  (DATA-005 / README quote: slope mean 14.14 deg, aspect mean 110.43 deg)
+  elevation  whole-rectangle mean=  375.082   inside-state mean=  611.440   (n_whole=37,361,083, n_inside=22,918,792)
+  slope      whole-rectangle mean=   14.135   inside-state mean=   22.917   (n_whole=37,361,083, n_inside=22,918,792)
+  aspect     whole-rectangle mean=  110.433   inside-state mean=  180.257   (n_whole=37,361,083, n_inside=22,918,792)
+  curvature  whole-rectangle mean=   -0.000   inside-state mean=    0.070   (n_whole=37,361,083, n_inside=22,918,792)
+
+==============================================================================
+C. STATE-EDGE ARTEFACTS (0 m fill -> 600 m terrain 'cliff')
+==============================================================================
+  Edge ring (valid cells within 3 px of the boundary): 107,190
+  slope                |x| mean ring=    37.87 interior=    22.85   max ring=     88.2 interior=     70.8
+  curvature            |x| mean ring=    15.16 interior=     0.88   max ring=    450.6 interior=     10.0
+  tri                  |x| mean ring=   224.39 interior=    35.11   max ring=   3414.8 interior=    210.8
+  tpi                  |x| mean ring=    94.85 interior=    11.20   max ring=    884.2 interior=    366.3
+  profile_curvature    |x| mean ring=    11.89 interior=     0.46   max ring=    235.1 interior=      8.5
+  plan_curvature       |x| mean ring=     4.66 interior=     0.53   max ring=    301.4 interior=      6.4
+  slope_curv_interact  |x| mean ring=  1186.04 interior=    19.82   max ring=  39429.4 interior=    610.6
+
+==============================================================================
+D. 'TWI' IS A MONOTONIC FUNCTION OF SLOPE
+==============================================================================
+  Spearman rho(slope, twi) on 1,000,000 random land cells = -1.0000000000
+  01b_derive_advanced_features.py: sca = dx*dy / tan(b);  twi = ln(sca / tan(b))
+  => twi = ln(dx*dy) - 2 ln(tan b): no upslope contributing area is used at all.
+
+==============================================================================
+E. LITHOLOGY RASTER CONTENT
+==============================================================================
+  class   1: 22,918,792 cells (100.00 % of land)
+
+==============================================================================
+F. LANDSLIDE TARGET RASTERS — PIXELS vs INDEPENDENT EVENTS
+==============================================================================
+  COOLR only (Phase 1)               positive px=     43 (inside land=     41)  connected blobs=    41  median px/blob=    1  max=     1
+  Expanded, no buffer                positive px=  1,633 (inside land=  1,533)  connected blobs= 1,531  median px/blob=    1  max=     2
+  Expanded, 90 m buffer (Phase 2)    positive px= 65,711 (inside land= 61,726)  connected blobs= 1,483  median px/blob=   41  max=   115
+
+==============================================================================
+G. GSI INVENTORY — GEOMETRY TYPES INSIDE MIZORAM
+==============================================================================
+  Total GSI records (India): 30,842   CRS: GEOGCS["WGS 84 (CRS84)",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AXIS["Longitude",EAST],AXIS["Latitude",NORTH],AUTHORITY["OGC","CRS84"]]
+  Columns: ['OBJECTID', 'LONGITUDE', 'LATITUDE', 'SLIDE_NO', 'DEPTH', 'GEOLOGY', 'STRUCTURE', 'ABSTRACT', 'CITATION', 'LENGTH', 'WIDTH', 'HEIGHT', 'LS_AREA', 'TRIGGERING', 'REMARKS', 'LS_VOLUME', 'ALERT', 'STATE', 'DISTRICT', 'TOPOSHEET', 'SLIDE_NAME', 'ACTIVITY', 'STYLE', 'INITIATION', 'PHOTOS', 'REPORT', 'IMAGE_LANDSLIDE', 'REPORT_LANDSLIDE', 'NH_SH_LOCATION', 'RUNOUT_DISTANCE', 'MATERIAL_TYPE', 'MOVEMENT_TYPE', 'MOVEMENT_RATE', 'DISTRIBUTION', 'FAILURE_MECHANISM', 'REACTIVATION', 'REACTIVATION_1', 'REACTIVATION_2', 'GEOMORPHOLOGY', 'HYDROLOGICAL_CONDITION', 'LANDUSE_LANDCOVER', 'PERSONS_DEATH', 'PEOPLE_AFFECTED', 'LIVESTOCK_AFFECTED', 'COMMUNICATION_AFFECTED', 'LANDUSE_AFFECTED', 'PRE_REMEDIAL_MEASURES', 'INFRASTRUCTURE_AFFECTED', 'GEOSCIENTIFIC_CAUSE', 'xmin', 'ymin', 'xmax', 'ymax', 'geometry']
+  Records intersecting the Mizoram boundary: 2,041
+  Geometry types in Mizoram: {'Point': 2041}
+
+==============================================================================
+H. PHASE 2 TRAINING TABLE (landslide_dataset_classic.csv)
+==============================================================================
+  Rows=91,944   positives=61,726   negatives=30,218   positive share=0.671
+  README/presentation claim: 65,711 positives + 40,000 negatives = 91,944 rows
+  => 3,985 positives and 9,782 negatives were silently dropped as NaN
+  PR-AUC of a random classifier on this table = positive share = 0.671
+  01d candidate pool: 37,056,918 cells, of which 14,423,360 (38.9 %) lie OUTSIDE Mizoram
+  Slope quintile cuts actually used (deg): [0.0, 0.0, 3.36, 18.72, 27.77, 88.18]
+  README stated cuts: [0, 4.2, 9.8, 15.6, 23.4, 78.5]
+  LULC class x label (ESA codes; 50 = built-up):
+      10: non-LS=28,054  LS=52,812
+      30: non-LS= 1,930  LS= 6,572
+      40: non-LS=   119  LS=   257
+      50: non-LS=    52  LS= 1,921
+      60: non-LS=     6  LS=   107
+      80: non-LS=    57  LS=    57
+
+==============================================================================
+I. VERIFIED FEATURE STATISTICS INSIDE THE STATE (for README correction)
+==============================================================================
+  elevation            min=    18.000 mean=   611.440 max=  2155.500
+  slope                min=     0.000 mean=    22.917 max=    88.178
+  aspect               min=    -1.000 mean=   180.257 max=   360.000
+  curvature            min=   -10.375 mean=     0.070 max=   450.568
+  lulc                 min=    10.000 mean=    11.648 max=    90.000
+  dist_fault           min=     0.000 mean=  9837.492 max= 40189.711
+  lithology            min=     1.000 mean=     1.000 max=     1.000
+  map                  min=  1820.766 mean=  2610.585 max=  3373.013
+  max_precip           min=   407.653 mean=   874.133 max=  1475.418
+  twi                  min=    -0.073 mean=     8.803 max=    29.849
+  tri                  min=     0.000 mean=    35.997 max=  3414.816
+  tpi                  min=   -82.690 mean=     0.557 max=   884.243
+  profile_curvature    min=   -42.172 mean=     0.036 max=   235.057
+  plan_curvature       min=  -301.381 mean=    -0.034 max=    44.022
+  sin_aspect           min=    -1.000 mean=     0.008 max=     1.000
+  cos_aspect           min=    -1.000 mean=    -0.008 max=     1.000
+  slope_curv_interact  min=     0.000 mean=    25.271 max= 39429.414
+
+==============================================================================
+J. VERSION 2 MAP — ZONE AREAS (fixed 0.2 probability bins)
+==============================================================================
+  Very Low   [0.0, 0.2) :  26.50 % of land
+  Low        [0.2, 0.4) :  24.28 % of land
+  Moderate   [0.4, 0.6) :  22.86 % of land
+  High       [0.6, 0.8) :  19.43 % of land
+  Very High  [0.8, 1.0) :   6.93 % of land
+  Mean predicted probability over the state = 0.409
+  Share of state with P >= 0.5 = 37.82 %
+
+Saved: data/phase3/audit/audit_report.txt and audit_summary.json
+EXIT_CODE=0

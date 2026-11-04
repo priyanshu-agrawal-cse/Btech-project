@@ -1,0 +1,172 @@
+====================================================================================================
+data/raw/geology/ngdr/extracted/FAULT_LITHOLOGY_STATE_MIZORAM_1793521648/FAULT_STATE_MIZORAM/FAULT_STATE_MIZORAM.shp
+features 631  crs EPSG:4326  geometry {'LineString': np.int64(625), 'MultiLineString': np.int64(6)}
+invalid geometries 0  empty 0
+bounds [92.2844, 22.0052, 93.418, 24.4956]
+fields ['gid', 'objectid', 'input_cent', 'toposheet_', 'edition_nu', 'geometry_i', 'fault_type', 'fault_name', 'shape_leng', 'geometry']
+features inside Mizoram 630
+  gid                      int64     nulls     0  unique   631  top {'2592': np.int64(1), '2493': np.int64(1), '2494': np.int64(1), '2495': np.int64(1), '2496': np.int64(1), '2497': np.int64(1), '2498': np.int64(1), '2499': np.int
+  objectid                 float64   nulls     0  unique   631  top {'2592.0': np.int64(1), '2493.0': np.int64(1), '2494.0': np.int64(1), '2495.0': np.int64(1), '2496.0': np.int64(1), '2497.0': np.int64(1), '2498.0': np.int64(1), 
+  input_cent               str       nulls     0  unique     1  top {'NER': np.int64(631)}
+  toposheet_               str       nulls     0  unique    40  top {'84B11': np.int64(60), '84A08': np.int64(55), '84A11': np.int64(35), '84E06': np.int64(31), '84A14': np.int64(30), '84B10': np.int64(28), '84A09': np.int64(26), 
+  edition_nu               int64     nulls     0  unique     1  top {'1': np.int64(631)}
+  geometry_i               float64   nulls     0  unique    60  top {'2.0': np.int64(37), '3.0': np.int64(37), '4.0': np.int64(37), '5.0': np.int64(36), '6.0': np.int64(35), '8.0': np.int64(34), '7.0': np.int64(33), '1.0': np.int6
+  fault_type               str       nulls     0  unique     3  top {'FAULT': np.int64(394), 'FAULT INFERRED': np.int64(233), 'THRUST': np.int64(4)}
+  fault_name               str       nulls     0  unique   300  top {'BLANK': np.int64(283), 'LUNGBUN': np.int64(5), 'BUNGKAWN': np.int64(4), 'BANG PUI': np.int64(4), 'CHAI LUI': np.int64(4), 'TUICHANG': np.int64(3), 'TUPUI': np.i
+  shape_leng               float64   nulls     0  unique   631  top {'861.382183073': np.int64(1), '3276.69479993': np.int64(1), '3478.02102089': np.int64(1), '3699.52631649': np.int64(1), '5060.39768609': np.int64(1), '2842.03773
+====================================================================================================
+data/raw/geology/ngdr/extracted/FAULT_LITHOLOGY_STATE_MIZORAM_1793521648/LITHOLOGY_STATE_MIZORAM/LITHOLOGY_STATE_MIZORAM.shp
+features 357  crs EPSG:4326  geometry {'Polygon': np.int64(311), 'MultiPolygon': np.int64(46)}
+invalid geometries 0  empty 0
+bounds [92.257, 21.9452, 93.4369, 24.5213]
+fields ['gid', 'objectid', 'input_cent', 'toposheet_', 'edition_nu', 'geometry_i', 'age', 'supergroup', 'group_name', 'formation', 'member', 'lithologic', 'sub_group', 'new_geom_i', 'uid_notati', 'intrusive', 'script', 'notation', 'stratigrap', 'area', 'area1', 'notation12', 'shape_leng', 'shape_area', 'stratigr_1', 'sld_name', 'notation_l', 'geometry']
+area inside Mizoram 20,928 km2 = 99.4 % of the state (21,051 km2)
+  gid                      int64     nulls     0  unique   357  top {'5894': np.int64(1), '5893': np.int64(1), '10713': np.int64(1), '10720': np.int64(1), '8375': np.int64(1), '9214': np.int64(1), '10293': np.int64(1), '3136': np.
+  objectid                 float64   nulls     0  unique   357  top {'5894.0': np.int64(1), '5893.0': np.int64(1), '10713.0': np.int64(1), '10720.0': np.int64(1), '8375.0': np.int64(1), '9214.0': np.int64(1), '10293.0': np.int64(1
+  input_cent               str       nulls     0  unique     1  top {'NER': np.int64(357)}
+  toposheet_               str       nulls     0  unique    51  top {'83D16': np.int64(14), '84E01': np.int64(14), '84E04': np.int64(12), '83D15': np.int64(12), '83H04': np.int64(11), '84A09': np.int64(11), '84A15': np.int64(11), 
+  edition_nu               int64     nulls     0  unique     2  top {'2': np.int64(346), '0': np.int64(11)}
+  geometry_i               float64   nulls     0  unique     5  top {'0.0': np.int64(352), '1720003.0': np.int64(2), '1680005.0': np.int64(1), '1600015.0': np.int64(1), '1500001.0': np.int64(1)}
+  age                      str       nulls    18  unique     6  top {'MIOCENE': np.int64(253), 'EOCENE - OLIGOCENE': np.int64(58), 'MIOCENE - PLIOCENE': np.int64(19), 'PLIOCENE - PLEISTOCENE': np.int64(5), 'QUATERNARY (UNCLASSIFIE
+  supergroup               object    nulls   357  unique     0  top {}
+  group_name               str       nulls    18  unique     5  top {'SURMA': np.int64(253), 'BARAIL': np.int64(58), 'TIPAM': np.int64(20), 'DUPITILA': np.int64(5), 'QUATERNARY (UNDIFFERENTIATED)': np.int64(3)}
+  formation                str       nulls    21  unique     9  top {'BHUBAN': np.int64(198), 'BOKABIL': np.int64(55), 'TIKAK PARBAT': np.int64(24), 'JENAM': np.int64(21), 'TIPAM SANDSTONE': np.int64(20), 'LAISONG': np.int64(9), '
+  member                   object    nulls   357  unique     0  top {}
+  lithologic               str       nulls     0  unique    34  top {'SST WITH SUBORDINATE SILTSTONE,MUDSTONE, SHALE': np.int64(85), 'GREY SANDY SPLINTERY SHALE, SILTSTONE AND MUDSTONE': np.int64(38), 'SHALE,SILTSTONE,MUDSTONE,SAN
+  sub_group                object    nulls   357  unique     0  top {}
+  new_geom_i               str       nulls     0  unique    33  top {'3555539927185536': np.int64(85), '3555539927194298': np.int64(38), '3555539926197600': np.int64(27), '3555539927191516': np.int64(24), '3052515921199220': np.in
+  uid_notati               str       nulls    18  unique    31  top {'0492': np.int64(85), '0501': np.int64(38), '0489': np.int64(27), '0498': np.int64(24), '0445': np.int64(20), '0500': np.int64(16), '0505': np.int64(14), '0484':
+  intrusive                object    nulls   357  unique     0  top {}
+  script                   str       nulls    18  unique    31  top {'N1subh1': np.int64(85), 'N1subh10': np.int64(38), 'N1sub9': np.int64(27), 'N1subh7': np.int64(24), 'N12tt5': np.int64(20), 'N1subh9': np.int64(16), 'N1subh14': 
+  notation                 str       nulls    18  unique    33  top {'N<SUB>1</SUB>subh1': np.int64(85), 'N<SUB>1</SUB>subh10': np.int64(38), 'N<SUB>1</SUB>sub9': np.int64(27), 'N<SUB>1</SUB>subh7': np.int64(24), 'N<SUB>1</SUB><SU
+  stratigrap               str       nulls    18  unique    33  top {'3555539927185536,MIOCENE , SST WITH SUBORDINATE SILTSTONE,MUDSTONE, SHALE,0492': np.int64(86), '3555539927194298,MIOCENE , GREY SANDY SPLINTERY SHALE, SILTSTONE
+  area                     float64   nulls     0  unique     1  top {'0.0': np.int64(357)}
+  area1                    float64   nulls     0  unique     1  top {'0.0': np.int64(357)}
+  notation12               object    nulls   357  unique     0  top {}
+  shape_leng               float64   nulls     0  unique   357  top {'66172.5722693': np.int64(1), '18402.2195478': np.int64(1), '45249.4030629': np.int64(1), '12162.5381559': np.int64(1), '20399.550338': np.int64(1), '9982.185145
+  shape_area               float64   nulls     0  unique   357  top {'5561192.41819': np.int64(1), '1190187.26615': np.int64(1), '3924999.94232': np.int64(1), '3871688.7899': np.int64(1), '14917184.1449': np.int64(1), '3418897.495
+  stratigr_1               str       nulls    18  unique    33  top {'MIOCENE-SST-WITH-SUBORDINATE-SILTSTONE-MUDSTONE-SHALE': np.int64(86), 'MIOCENE-GREY-SANDY-SPLINTERY-SHALE-SILTSTONE-AND-MUDSTONE': np.int64(39), 'MIOCENE-SHALE-
+  sld_name                 str       nulls    18  unique     2  top {'lithology_gcs_ngdr2': np.int64(331), 'lithology_gcs_ngdr1': np.int64(8)}
+  notation_l               str       nulls    18  unique    31  top {'N?subh1': np.int64(85), 'N?subh10': np.int64(38), 'N?sub9': np.int64(27), 'N?subh7': np.int64(24), 'N??tt5': np.int64(20), 'N?subh9': np.int64(16), 'N?subh14': 
+====================================================================================================
+data/raw/geology/ngdr/extracted/FOLD_SHEAR_ZONE_STATE_MIZORAM_1793522079/FOLD_STATE_MIZORAM/FOLD_STATE_MIZORAM.shp
+features 382  crs EPSG:4326  geometry {'LineString': np.int64(381), 'MultiLineString': np.int64(1)}
+invalid geometries 0  empty 0
+bounds [92.2651, 22.0127, 93.4187, 24.5057]
+fields ['gid', 'objectid', 'input_cent', 'toposheet_', 'edition_nu', 'geometry_i', 'fold_type', 'shape_leng', 'geometry']
+features inside Mizoram 382
+  gid                      int64     nulls     0  unique   382  top {'4246': np.int64(1), '4203': np.int64(1), '4240': np.int64(1), '4196': np.int64(1), '4243': np.int64(1), '4197': np.int64(1), '4198': np.int64(1), '4199': np.int
+  objectid                 float64   nulls     0  unique   382  top {'4246.0': np.int64(1), '4203.0': np.int64(1), '4240.0': np.int64(1), '4196.0': np.int64(1), '4243.0': np.int64(1), '4197.0': np.int64(1), '4198.0': np.int64(1), 
+  input_cent               str       nulls     0  unique     1  top {'NER': np.int64(382)}
+  toposheet_               str       nulls     0  unique    40  top {'84A06': np.int64(44), '84A14': np.int64(23), '84A08': np.int64(19), '84E01': np.int64(19), '84A13': np.int64(18), '84E06': np.int64(17), '84B13': np.int64(15), 
+  edition_nu               int64     nulls     0  unique     2  top {'1': np.int64(378), '0': np.int64(4)}
+  geometry_i               float64   nulls     0  unique     4  top {'210.0': np.int64(204), '220.0': np.int64(168), '9999.0': np.int64(6), '0.0': np.int64(4)}
+  fold_type                str       nulls     0  unique     3  top {'FOLD': np.int64(345), 'ANTIFORM': np.int64(21), 'SYNFORM': np.int64(16)}
+  shape_leng               float64   nulls     0  unique   380  top {'159.62238764': np.int64(2), '83.790538073': np.int64(2), '1626.24983737': np.int64(1), '977.475643737': np.int64(1), '5630.45791389': np.int64(1), '4420.5107964
+====================================================================================================
+data/raw/geology/ngdr/extracted/FOLD_SHEAR_ZONE_STATE_MIZORAM_1793522079/SHEAR_ZONE_STATE_MIZORAM/SHEAR_ZONE_STATE_MIZORAM.shp
+features 47  crs EPSG:4326  geometry {'LineString': np.int64(47)}
+invalid geometries 0  empty 0
+bounds [92.739, 22.4049, 92.894, 24.3364]
+fields ['gid', 'input_cent', 'toposheet_', 'edition_nu', 'geometry_i', 'kinematic', 'shape_len', 'geometry']
+features inside Mizoram 47
+  gid                      int64     nulls     0  unique    47  top {'749': np.int64(1), '2258': np.int64(1), '2374': np.int64(1), '2932': np.int64(1), '3810': np.int64(1), '4059': np.int64(1), '4377': np.int64(1), '4407': np.int6
+  input_cent               str       nulls     0  unique     1  top {'NER': np.int64(47)}
+  toposheet_               str       nulls     0  unique     3  top {'83D12': np.int64(36), '83D15': np.int64(9), '84B15': np.int64(2)}
+  edition_nu               int64     nulls     0  unique     1  top {'1': np.int64(47)}
+  geometry_i               float64   nulls     0  unique     1  top {'10.0': np.int64(47)}
+  kinematic                str       nulls     0  unique     1  top {'SHEAR': np.int64(47)}
+  shape_len                float64   nulls     0  unique     1  top {'0.0': np.int64(47)}
+====================================================================================================
+data/raw/geology/ngdr/extracted/GEOMORPHOLOGY_250K_LINEAMENT_250K_STATE_MIZORAM_1793521967/GEOMORPHOLOGY_250K_STATE_MIZORAM/GEOMORPHOLOGY_250K_STATE_MIZORAM.shp
+features 297  crs EPSG:4326  geometry {'Polygon': np.int64(206), 'MultiPolygon': np.int64(91)}
+invalid geometries 0  empty 0
+bounds [92.257, 21.9452, 93.4369, 24.5213]
+fields ['gid', 'shape_leng', 'descriptio', 'legend_sho', 'shape_area', 'shape_len', 'geometry']
+area inside Mizoram 20,928 km2 = 99.4 % of the state (21,051 km2)
+  gid                      int64     nulls     0  unique   297  top {'162343': np.int64(1), '162344': np.int64(1), '162485': np.int64(1), '162608': np.int64(1), '168696': np.int64(1), '169721': np.int64(1), '169993': np.int64(1), 
+  shape_leng               float64   nulls     0  unique   297  top {'48848.2680011': np.int64(1), '1342.76476705': np.int64(1), '9523.03072281': np.int64(1), '6816.25994293': np.int64(1), '1750.07368758': np.int64(1), '18561.3454
+  descriptio               str       nulls     0  unique     8  top {'River': np.int64(89), 'Moderately Dissected Structural Hills and Valleys': np.int64(76), 'Highly Dissected Structural Hills and Valleys': np.int64(61), 'Pond': 
+  legend_sho               str       nulls     0  unique     7  top {'Waterbody - River': np.int64(89), 'Moderately Dissected Hills and Valleys': np.int64(76), 'Highly Dissected Hills and Valleys': np.int64(61), 'Waterbodies-Other
+  shape_area               float64   nulls     0  unique     1  top {'0.0': np.int64(297)}
+  shape_len                float64   nulls     0  unique     1  top {'0.0': np.int64(297)}
+====================================================================================================
+data/raw/geology/ngdr/extracted/GEOMORPHOLOGY_250K_LINEAMENT_250K_STATE_MIZORAM_1793521967/LINEAMENT_250K_STATE_MIZORAM/LINEAMENT_250K_STATE_MIZORAM.shp
+features 192  crs EPSG:4326  geometry {'LineString': np.int64(186), 'MultiLineString': np.int64(6)}
+invalid geometries 0  empty 0
+bounds [92.2612, 22.0129, 93.4354, 24.5189]
+fields ['gid', 'lineaid', 'symid', 'l1descript', 'l2descript', 'shape_len', 'geometry']
+features inside Mizoram 192
+  gid                      int64     nulls     0  unique   192  top {'843': np.int64(1), '842': np.int64(1), '844': np.int64(1), '845': np.int64(1), '846': np.int64(1), '847': np.int64(1), '848': np.int64(1), '849': np.int64(1)}
+  lineaid                  float64   nulls     0  unique   192  top {'429490.0': np.int64(1), '429487.0': np.int64(1), '429493.0': np.int64(1), '429509.0': np.int64(1), '429512.0': np.int64(1), '429517.0': np.int64(1), '429521.0':
+  symid                    str       nulls     0  unique     6  top {'121212': np.int64(80), '111212': np.int64(48), '111312': np.int64(28), '121412': np.int64(23), '111612': np.int64(7), '121112': np.int64(6)}
+  l1descript               str       nulls     0  unique     2  top {'Structural lineaments': np.int64(109), 'Geomorphic Lineaments': np.int64(83)}
+  l2descript               str       nulls     0  unique     6  top {'Joint/Fracture': np.int64(80), 'Drainage parallel': np.int64(48), 'Ridge parallel': np.int64(28), 'Axial trace of fold': np.int64(23), 'Break-in slope': np.int6
+  shape_len                float64   nulls     0  unique     1  top {'0.0': np.int64(192)}
+====================================================================================================
+data/raw/landslide_inventory/ngdr/extracted/LANDSLIDE_POINT_LANDSLIDE_POLYGON_STATE_MIZORAM_1793521854/LANDSLIDE_POINT_STATE_MIZORAM/LANDSLIDE_POINT_STATE_MIZORAM.shp
+features 3373  crs EPSG:4326  geometry {'Point': np.int64(3373)}
+invalid geometries 0  empty 0
+bounds [92.3143, 22.05, 93.3944, 24.5]
+fields ['gid', 'objectid', 'slide_no', 'state', 'district', 'toposheet_', 'slide_name', 'nh_sh_loca', 'latitude', 'longitude', 'length_in_', 'width_in_m', 'height_in_', 'area_in_sq', 'area_in__1', 'volume_in_', 'run_out_di', 'run_out__1', 'movement_t', 'movement_r', 'activity', 'distributi', 'style', 'failure_me', 'history', 'geomorphol', 'geology', 'structure', 'landuse_or', 'hydrologic', 'triggering', 'persons_de', 'people_aff', 'livestock_', 'communicat', 'infrastruc', 'landuse_af', 'geo_scient', 'preliminar', 'remarks', 'geometry']
+features inside Mizoram 3372
+  gid                      int64     nulls     0  unique  3373  top {'828': np.int64(1), '17975': np.int64(1), '20658': np.int64(1), '20659': np.int64(1), '20660': np.int64(1), '20661': np.int64(1), '20662': np.int64(1), '20663': 
+  objectid                 float64   nulls     0  unique  3373  top {'828.0': np.int64(1), '17975.0': np.int64(1), '20658.0': np.int64(1), '20659.0': np.int64(1), '20660.0': np.int64(1), '20661.0': np.int64(1), '20662.0': np.int64
+  slide_no                 str       nulls     0  unique  3365  top {'MZ/AZL/84A10/2016/01': np.int64(2), 'MZ/AZL/84A10/2016/02': np.int64(2), 'MIZ/AZL/84A/10/2021/01': np.int64(2), 'MZ/AZL/84A10/2024/004': np.int64(2), 'MIZ/AZL/8
+  state                    str       nulls     0  unique     4  top {'Mizoram': np.int64(3370), 'Assam': np.int64(1), 'Manipur': np.int64(1), 'Tripura': np.int64(1)}
+  district                 str       nulls     0  unique    19  top {'Aizawl': np.int64(1282), 'Lunglei': np.int64(668), 'Champhai': np.int64(450), 'Serchhip': np.int64(258), 'Lawngtlai': np.int64(230), 'Kolasib': np.int64(206), '
+  toposheet_               str       nulls     0  unique    57  top {'84A10': np.int64(576), '84A15': np.int64(238), '84A14': np.int64(211), '83D16': np.int64(153), '84A13': np.int64(146), '84A12': np.int64(144), '84B13': np.int64
+  slide_name               str       nulls  2110  unique   557  top {'NULL': np.int64(636), 'N/A': np.int64(13), 'Champhai slide': np.int64(5), 'Vanchengpui slide': np.int64(4), 'Kawnpui to Khamrang road': np.int64(4), 'Khawhai sl
+  nh_sh_loca               str       nulls    48  unique  1493  top {'NULL': np.int64(732), 'Multi- Modal Road': np.int64(34), 'NH 54': np.int64(27), 'Aizawl-Thenzawl-Lunglei Highway': np.int64(27), 'Aizawl-Thenzawl-Lunglei SH, Ra
+  latitude                 float64   nulls     0  unique  2847  top {'22.18': np.int64(15), '22.34': np.int64(14), '22.9': np.int64(13), '22.15': np.int64(12), '24.34': np.int64(12), '22.33': np.int64(11), '22.88': np.int64(11), '
+  longitude                float64   nulls     0  unique  2644  top {'92.65': np.int64(19), '92.66': np.int64(18), '92.61': np.int64(18), '92.49': np.int64(16), '92.63': np.int64(15), '92.74': np.int64(15), '92.67': np.int64(15), 
+  length_in_               str       nulls     8  unique   162  top {'8': np.int64(263), '10': np.int64(240), '15': np.int64(225), '20': np.int64(211), '12': np.int64(200), '6': np.int64(184), '7': np.int64(143), '5': np.int64(135
+  width_in_m               str       nulls     8  unique   205  top {'8': np.int64(287), '10': np.int64(231), '7': np.int64(215), '6': np.int64(202), '15': np.int64(198), '5': np.int64(195), '12': np.int64(169), '20': np.int64(154
+  height_in_               float64   nulls     0  unique   110  top {'10.0': np.int64(253), '8.0': np.int64(245), '7.0': np.int64(227), '15.0': np.int64(189), '5.0': np.int64(188), '6.0': np.int64(176), '20.0': np.int64(170), '4.0
+  area_in_sq               str       nulls     0  unique   603  top {'0': np.int64(101), '120': np.int64(92), '300': np.int64(63), '80': np.int64(61), '48': np.int64(61), '60': np.int64(59), '56': np.int64(58), '96': np.int64(55)}
+  area_in__1               str       nulls   135  unique    17  top {'0': np.int64(1004), '1': np.int64(785), 'NA': np.int64(739), '0.5': np.int64(311), '1.5': np.int64(254), '2': np.int64(78), '3.5': np.int64(19), '5': np.int64(1
+  volume_in_               str       nulls   133  unique   552  top {'0': np.int64(1021), 'NA': np.int64(739), '60': np.int64(28), '30': np.int64(26), '180': np.int64(23), '40': np.int64(22), '300': np.int64(21), '96': np.int64(21
+  run_out_di               str       nulls     2  unique    98  top {'0': np.int64(1841), 'NULL': np.int64(550), '2': np.int64(86), '10': np.int64(81), '20': np.int64(66), '3': np.int64(62), '5': np.int64(57), '1': np.int64(56)}
+  run_out__1               str       nulls     0  unique    22  top {'Debris': np.int64(2088), 'Rock': np.int64(916), 'Earth': np.int64(221), 'Soil': np.int64(60), 'Regolith': np.int64(18), 'Insitu Earth': np.int64(18), 'Compacted
+  movement_t               str       nulls     0  unique    19  top {'Slide': np.int64(2940), 'Fall': np.int64(125), 'Complex': np.int64(105), 'Flow': np.int64(81), 'Debris slide': np.int64(26), 'Subsidence': np.int64(22), 'Rock s
+  movement_r               str       nulls  1337  unique     7  top {'Rapid': np.int64(1982), 'Very Rapid': np.int64(21), 'Moderate': np.int64(9), 'Very rapid': np.int64(8), 'NA': np.int64(7), 'Slow': np.int64(5), 'Extremely rapid
+  activity                 str       nulls    39  unique    12  top {'Active': np.int64(2300), 'Suspended': np.int64(590), 'Reactivated': np.int64(204), 'Stabilized': np.int64(105), 'Dormant': np.int64(57), 'Inactive': np.int64(31
+  distributi               str       nulls    81  unique    35  top {'Retrogressive': np.int64(1458), 'Confined': np.int64(1079), 'Advancing': np.int64(259), 'Enlarging': np.int64(176), 'Widening': np.int64(156), 'Diminishing': np
+  style                    str       nulls    50  unique    19  top {'Single': np.int64(2538), 'Multiple': np.int64(455), 'Complex': np.int64(152), 'Successive': np.int64(114), 'Composite': np.int64(29), 'NA': np.int64(7), 'Succes
+  failure_me               str       nulls   131  unique    20  top {'Shallow translational': np.int64(1439), 'Shallow translational failure': np.int64(1083), 'Shallow rotational failure': np.int64(421), 'Shallow planar failure': 
+  history                  str       nulls     0  unique   259  top {'NA': np.int64(1568), '2016': np.int64(285), '28 May 2024': np.int64(272), '2019': np.int64(190), '2017': np.int64(121), '01 June 2025': np.int64(105), '31 May 2
+  geomorphol               str       nulls    32  unique   194  top {'Moderately dissected hill': np.int64(972), 'Highly dissected hill': np.int64(540), 'HDS': np.int64(393), 'Lowly dissected hill': np.int64(322), 'MDS': np.int64(
+  geology                  str       nulls    23  unique   441  top {'Grey sandy splintery shale, siltstone and mudstone': np.int64(299), 'Sst and shale, weathered rock': np.int64(202), 'Sandstone with subordinate siltstone,mudsto
+  structure                str       nulls     0  unique   766  top {'Nil': np.int64(1743), 'NULL': np.int64(512), 'Highly weathered': np.int64(84), 'Highly weathered and fractured': np.int64(44), 'Highly weathered, jointed and fr
+  landuse_or               str       nulls    28  unique   541  top {'Moderate vegetation': np.int64(480), 'Thick vegetation': np.int64(467), 'Extensive slope cut': np.int64(152), 'T.V': np.int64(124), 'Settlement': np.int64(123),
+  hydrologic               str       nulls    56  unique    61  top {'Dry': np.int64(1728), 'Damp': np.int64(1080), 'Wet': np.int64(161), 'Flowing': np.int64(109), 'Dripping': np.int64(61), 'dry': np.int64(46), 'Flowing (nala)': n
+  triggering               str       nulls   380  unique    28  top {'Rainfall': np.int64(2511), 'Rainfall and Anthropogenic': np.int64(130), 'Anthropogenic': np.int64(108), 'Rainfall, Anthropogenic': np.int64(107), 'rainfall': np
+  persons_de               str       nulls  2592  unique    23  top {'NULL': np.int64(733), 'N/A': np.int64(7), 'NA': np.int64(7), 'Nil': np.int64(5), '2 persons': np.int64(4), '3 persons': np.int64(3), '1 person': np.int64(3), '1
+  people_aff               str       nulls  2555  unique    45  top {'NULL': np.int64(728), '1 family displaced': np.int64(18), 'N/A': np.int64(13), 'NA': np.int64(7), '3 families': np.int64(3), '4 families displaced': np.int64(3)
+  livestock_               str       nulls   572  unique    13  top {'NULL': np.int64(2772), 'Nil': np.int64(8), 'NA': np.int64(7), '-': np.int64(3), '2 pigs died': np.int64(2), 'Yes': np.int64(2), '--': np.int64(1), '3 pigs died'
+  communicat               str       nulls  1344  unique   175  top {'NULL': np.int64(733), 'Road blocked and damaged': np.int64(352), 'Road block': np.int64(234), 'Road blocked': np.int64(124), 'Road damaged': np.int64(112), 'Roa
+  infrastruc               str       nulls  1589  unique   455  top {'NULL': np.int64(504), 'Road block': np.int64(262), 'Road blocked': np.int64(134), 'Road damaged': np.int64(69), 'Partial road block': np.int64(44), 'Road blocka
+  landuse_af               str       nulls  2463  unique    33  top {'NULL': np.int64(733), 'Forest': np.int64(63), 'Jhum': np.int64(26), 'Road': np.int64(18), 'N/A': np.int64(13), 'Agriculture': np.int64(13), 'NA': np.int64(8), '
+  geo_scient               str       nulls   229  unique  1795  top {'* ESC failure.': np.int64(117), 'Lithology, Joints; Weathering, Oversaturation due to rainfall': np.int64(94), 'Extensive slope cut failure': np.int64(77), 'Red
+  preliminar               str       nulls   342  unique  1698  top {'NULL': np.int64(175), 'i) Retaining wall at the toe of the slide.': np.int64(49), 'i) Retaining wall at toe of the slide.': np.int64(49), 'i) Retaining wall at 
+  remarks                  str       nulls  1207  unique  1401  top {'NULL': np.int64(375), '* Cyclone remal related.': np.int64(26), 'NA': np.int64(23), 'CSD': np.int64(20), 'Data taken from distance.': np.int64(19), 'Cut slope f
+====================================================================================================
+data/raw/landslide_inventory/ngdr/extracted/LANDSLIDE_POINT_LANDSLIDE_POLYGON_STATE_MIZORAM_1793521854/LANDSLIDE_POLYGON_STATE_MIZORAM/LANDSLIDE_POLYGON_STATE_MIZORAM.shp
+features 4256  crs EPSG:4326  geometry {'Polygon': np.int64(4256)}
+invalid geometries 0  empty 0
+bounds [92.2675, 22.052, 93.4299, 24.5047]
+fields ['gid', 'lulc', 'geom11', 'state', 'district', 'toposheet', 'material_t', 'landslide_', 'cent_x', 'cent_y', 'data_type', 'shape_leng', 'shape_area', 'geometry']
+area inside Mizoram 2 km2 = 0.0 % of the state (21,051 km2)
+  gid                      int64     nulls     0  unique  4256  top {'25660': np.int64(1), '25691': np.int64(1), '25672': np.int64(1), '25674': np.int64(1), '25682': np.int64(1), '25688': np.int64(1), '25692': np.int64(1), '25703'
+  lulc                     str       nulls   854  unique    16  top {'Moderate vegetation': np.int64(1493), 'Thick vegetation': np.int64(665), 'Sparse vegetation': np.int64(522), 'Barren rocky slope': np.int64(280), 'Jhum cultivat
+  geom11                   str       nulls   853  unique    14  top {'Highly dissected hill': np.int64(1415), 'Moderately dissected hill': np.int64(1133), 'Lowly dissected hill': np.int64(494), 'Hill top': np.int64(133), 'Escarpme
+  state                    str       nulls     0  unique     2  top {'Mizoram': np.int64(4255), 'Tripura': np.int64(1)}
+  district                 str       nulls     0  unique    14  top {'Lunglei': np.int64(833), 'Champhai': np.int64(801), 'Aizawl': np.int64(652), 'Kolasib': np.int64(639), 'Serchhip': np.int64(526), 'Mamit': np.int64(338), 'Lawng
+  toposheet                str       nulls     0  unique    41  top {'83D16': np.int64(826), '84A15': np.int64(474), '84A11': np.int64(311), '84A12': np.int64(263), '84B13': np.int64(218), '84E02': np.int64(172), '83H08': np.int64
+  material_t               str       nulls  1032  unique     7  top {'Debris': np.int64(1218), 'Rock': np.int64(974), 'Transported soil': np.int64(658), 'Colluvium': np.int64(188), 'Soil': np.int64(173), 'Alluvium': np.int64(9), '
+  landslide_               str       nulls  1602  unique     5  top {'Slide': np.int64(2547), 'Fall': np.int64(61), 'Debris flow': np.int64(34), 'Subsidence': np.int64(8), 'Flow': np.int64(4)}
+  cent_x                   float64   nulls     0  unique  3229  top {'92.87': np.int64(6), '92.796': np.int64(6), '92.965': np.int64(6), '92.7956': np.int64(5), '92.7993': np.int64(5), '92.7747': np.int64(5), '92.978': np.int64(5)
+  cent_y                   float64   nulls     0  unique  3628  top {'23.4354': np.int64(6), '23.3943': np.int64(4), '23.457': np.int64(4), '24.0255': np.int64(4), '24.0239': np.int64(4), '24.2235': np.int64(4), '24.2293': np.int6
+  data_type                str       nulls  1424  unique     2  top {'Mapped as polygon': np.int64(1774), 'Mapped as point bufferred to polygon': np.int64(1058)}
+  shape_leng               float64   nulls     0  unique  3237  top {'31.3759618483': np.int64(99), '31.3759618481': np.int64(83), '31.3759618488': np.int64(68), '31.3759618489': np.int64(61), '31.3759618474': np.int64(57), '31.37
+  shape_area               float64   nulls     0  unique  3260  top {'78.1411539788': np.int64(55), '78.1411539765': np.int64(55), '78.1411539777': np.int64(54), '78.1411539771': np.int64(50), '78.1411539819': np.int64(49), '78.14

@@ -1,0 +1,7 @@
+                        group  pixels  north_pct  east_pct  south_pct  west_pct  mean_aspect_cos  median_slope
+     All land (1 in 97 cells)  236277       22.5      26.9       22.9      27.7           -0.010          23.0
+          GSI training points    1859       22.7      29.4       22.0      25.9           -0.006          28.3
+Mapped polygons (v5 training)    1434        1.9      25.7       61.1      11.3           -0.655          34.7
+     Polygons: point buffered    1028       16.1      23.9       37.5      22.5           -0.257          31.0
+    Polygons: blank data_type    1408       13.1      28.0       35.9      23.0           -0.258          29.5
+      NGDR points 2024 onward     812       21.6      25.6       23.0      29.8            0.007          28.2

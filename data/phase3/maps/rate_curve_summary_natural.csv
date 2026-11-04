@@ -1,0 +1,5 @@
+curve,AUC,AUC_within_60m_of_road,captured_in_top_1pct_area,captured_in_top_5pct_area,captured_in_top_10pct_area,captured_in_top_20pct_area,captured_in_top_30pct_area
+"natural-terrain map, spatial out-of-fold (prediction rate)",0.734,0.726,6.823,23.988,36.719,52.982,65.71
+"natural-terrain map, final model (success rate, training data)",0.824,0.812,12.795,35.971,51.939,69.062,79.057
+Map v2 (in-sample for most of these landslides),0.928,0.847,20.656,55.46,75.793,90.802,97.041
+Baseline: nearest to a road first,0.919,0.701,24.164,72.441,80.332,88.084,93.061

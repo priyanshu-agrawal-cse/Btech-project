@@ -1,0 +1,8 @@
+EXPANDED DATASET SUMMARY
+==================================================
+
+Target raster       : data/processed/inventory/mizoram_landslide_target_expanded_30m.tif
+Landslide pixels    : 65711
+Non-LS sampled      : 40,000
+Features (17): ['elevation', 'slope', 'aspect', 'curvature', 'lulc', 'dist_fault', 'lithology', 'map', 'max_precip', 'twi', 'tri', 'tpi', 'profile_curvature', 'plan_curvature', 'sin_aspect', 'cos_aspect', 'slope_curv_interact']
+Dataset shape       : (91944, 20)

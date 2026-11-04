@@ -1,0 +1,15 @@
+Padded DEM (10097, 4619), cell size 30.3068 m, land cells 22,918,792
+  elevation      min=    18.000 mean=   611.440 max=  2155.500
+  slope          min=     0.000 mean=    22.816 max=    70.839
+  aspect_sin     min=    -1.000 mean=    -0.007 max=     1.000
+  aspect_cos     min=    -1.000 mean=    -0.009 max=     1.000
+  curv_general   min=   -10.375 mean=     0.000 max=     9.675
+  curv_profile   min=    -8.110 mean=    -0.019 max=     8.480
+  curv_plan      min=    -5.013 mean=    -0.019 max=     6.430
+  tri            min=     0.000 mean=    35.074 max=   210.755
+  tpi_270m       min=   -82.690 mean=    -0.000 max=    80.039
+  tpi_1km        min=  -254.233 mean=    -0.016 max=   250.141
+  tpi_3km        min=  -440.410 mean=    -0.171 max=   500.644
+  relief_1km     min=     6.682 mean=   322.454 max=  1001.005
+Terrain features complete.
+EXIT_CODE=0

@@ -1,0 +1,10 @@
+ranking,test_set,records,test_pixels,AUC
+All-factor map v3,BYYEAR to 2015,86.0,20.0,0.971
+All-factor map v3,BYYEAR 2020-2023,212.0,188.0,0.933
+All-factor map v3,BYYEAR 2024 onward,813.0,717.0,0.917
+Natural-terrain map v3,BYYEAR to 2015,86.0,20.0,0.737
+Natural-terrain map v3,BYYEAR 2020-2023,212.0,188.0,0.773
+Natural-terrain map v3,BYYEAR 2024 onward,813.0,717.0,0.79
+Baseline: nearest to a road first,BYYEAR to 2015,86.0,20.0,0.972
+Baseline: nearest to a road first,BYYEAR 2020-2023,212.0,188.0,0.931
+Baseline: nearest to a road first,BYYEAR 2024 onward,813.0,717.0,0.93

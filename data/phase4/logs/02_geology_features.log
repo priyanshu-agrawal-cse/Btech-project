@@ -1,0 +1,15 @@
+rock_group
+alluvium               0.01
+calcareous             0.42
+coal_bearing          12.71
+conglomeratic          6.93
+interbedded            8.84
+no_data                0.08
+sandstone_dominant    42.60
+shale_dominant        28.42
+lith_group land share %: {'no_data': 0.663, 'alluvium': 0.015, 'sandstone_dominant': 42.347, 'shale_dominant': 28.251, 'interbedded': 8.792, 'conglomeratic': 6.886, 'coal_bearing': 12.633, 'calcareous': 0.414}
+A1 gate: covered 99.34 % (needs >= 95), groups with >= 1 %: 5 (needs >= 2)
+structural lines: faults 631, shear zones 47, 1:250k structural 109
+density km/km2 on land: mean 0.227, max 5.605
+dist_lineament m on land: median 1565, max 14160
+Step 02 complete.

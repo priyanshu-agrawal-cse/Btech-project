@@ -1,0 +1,16 @@
+ranking,test_set,records,beyond_150m,test_pixels,AUC,captured_top_1pct,captured_top_5pct,captured_top_10pct,captured_top_20pct,AUC_within_60m_of_road,n_within_60m,within_60m_of_road_pct
+All-factor map v3,Polygons: mapped as polygon (primary),1774,1438,1434,0.554,5.158,10.737,15.342,21.757,0.777,157,10.948
+All-factor map v3,Polygons: point buffered to polygon,1040,406,398,0.573,3.764,9.04,13.568,25.099,0.733,37,9.296
+All-factor map v3,Polygons: blank data_type,1423,870,865,0.698,15.247,37.339,45.087,54.907,0.692,371,42.89
+All-factor map v3,Polygons: all,4237,2714,2697,0.603,8.188,19.018,24.62,32.882,0.718,565,20.949
+All-factor map v3,Points: all NGDR,3198,1175,1168,0.911,38.496,71.23,81.932,88.18,0.776,870,74.486
+Natural-terrain map v3,Polygons: mapped as polygon (primary),1774,1438,1434,0.692,2.16,10.304,20.55,39.809,0.734,157,10.948
+Natural-terrain map v3,Polygons: point buffered to polygon,1040,406,398,0.671,4.772,10.553,22.343,39.13,0.692,37,9.296
+Natural-terrain map v3,Polygons: blank data_type,1423,870,865,0.675,2.079,10.737,21.147,38.798,0.614,371,42.89
+Natural-terrain map v3,Polygons: all,4237,2714,2697,0.683,2.52,10.48,21.006,39.385,0.653,565,20.949
+Natural-terrain map v3,Points: all NGDR,3198,1175,1168,0.783,11.549,34.231,46.707,64.093,0.766,870,74.486
+Baseline: nearest to a road first,Polygons: mapped as polygon (primary),1774,1438,1434,0.429,2.992,10.226,13.125,19.141,0.653,157,10.948
+Baseline: nearest to a road first,Polygons: point buffered to polygon,1040,406,398,0.493,2.591,8.333,12.043,22.111,0.645,37,9.296
+Baseline: nearest to a road first,Polygons: blank data_type,1423,870,865,0.711,12.637,40.706,46.962,54.488,0.678,371,42.89
+Baseline: nearest to a road first,Polygons: all,4237,2714,2697,0.529,6.026,19.722,23.818,30.916,0.669,565,20.949
+Baseline: nearest to a road first,Points: all NGDR,3198,1175,1168,0.917,19.071,68.217,82.535,90.367,0.631,870,74.486

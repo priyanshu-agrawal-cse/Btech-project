@@ -1,0 +1,51 @@
+ranking,test_set,zone,area_pct,landslide_pct,frequency_ratio
+All-factor map v3,Polygons: mapped as polygon (primary),Very Low,59.761,55.439,0.928
+All-factor map v3,Polygons: mapped as polygon (primary),Low,20.069,22.594,1.126
+All-factor map v3,Polygons: mapped as polygon (primary),Moderate,8.931,6.067,0.679
+All-factor map v3,Polygons: mapped as polygon (primary),High,6.599,5.579,0.845
+All-factor map v3,Polygons: mapped as polygon (primary),Very High,4.639,10.321,2.225
+All-factor map v3,Polygons: point buffered to polygon,Very Low,59.761,51.508,0.862
+All-factor map v3,Polygons: point buffered to polygon,Low,20.069,23.367,1.164
+All-factor map v3,Polygons: point buffered to polygon,Moderate,8.931,10.05,1.125
+All-factor map v3,Polygons: point buffered to polygon,High,6.599,6.281,0.952
+All-factor map v3,Polygons: point buffered to polygon,Very High,4.639,8.794,1.896
+All-factor map v3,Polygons: blank data_type,Very Low,59.761,32.254,0.54
+All-factor map v3,Polygons: blank data_type,Low,20.069,12.601,0.628
+All-factor map v3,Polygons: blank data_type,Moderate,8.931,8.208,0.919
+All-factor map v3,Polygons: blank data_type,High,6.599,10.867,1.647
+All-factor map v3,Polygons: blank data_type,Very High,4.639,36.069,7.776
+All-factor map v3,Polygons: all,Very Low,59.761,47.423,0.794
+All-factor map v3,Polygons: all,Low,20.069,19.503,0.972
+All-factor map v3,Polygons: all,Moderate,8.931,7.341,0.822
+All-factor map v3,Polygons: all,High,6.599,7.379,1.118
+All-factor map v3,Polygons: all,Very High,4.639,18.354,3.957
+All-factor map v3,Points: all NGDR,Very Low,59.761,6.849,0.115
+All-factor map v3,Points: all NGDR,Low,20.069,4.966,0.247
+All-factor map v3,Points: all NGDR,Moderate,8.931,4.281,0.479
+All-factor map v3,Points: all NGDR,High,6.599,13.699,2.076
+All-factor map v3,Points: all NGDR,Very High,4.639,70.205,15.135
+Natural-terrain map v3,Polygons: mapped as polygon (primary),Very Low,19.461,1.395,0.072
+Natural-terrain map v3,Polygons: mapped as polygon (primary),Low,28.676,17.922,0.625
+Natural-terrain map v3,Polygons: mapped as polygon (primary),Moderate,25.435,31.799,1.25
+Natural-terrain map v3,Polygons: mapped as polygon (primary),High,17.685,31.102,1.759
+Natural-terrain map v3,Polygons: mapped as polygon (primary),Very High,8.744,17.782,2.034
+Natural-terrain map v3,Polygons: point buffered to polygon,Very Low,19.461,3.015,0.155
+Natural-terrain map v3,Polygons: point buffered to polygon,Low,28.676,21.859,0.762
+Natural-terrain map v3,Polygons: point buffered to polygon,Moderate,25.435,29.397,1.156
+Natural-terrain map v3,Polygons: point buffered to polygon,High,17.685,26.131,1.478
+Natural-terrain map v3,Polygons: point buffered to polygon,Very High,8.744,19.598,2.241
+Natural-terrain map v3,Polygons: blank data_type,Very Low,19.461,5.665,0.291
+Natural-terrain map v3,Polygons: blank data_type,Low,28.676,16.185,0.564
+Natural-terrain map v3,Polygons: blank data_type,Moderate,25.435,28.786,1.132
+Natural-terrain map v3,Polygons: blank data_type,High,17.685,31.329,1.772
+Natural-terrain map v3,Polygons: blank data_type,Very High,8.744,18.035,2.063
+Natural-terrain map v3,Polygons: all,Very Low,19.461,3.003,0.154
+Natural-terrain map v3,Polygons: all,Low,28.676,17.946,0.626
+Natural-terrain map v3,Polygons: all,Moderate,25.435,30.478,1.198
+Natural-terrain map v3,Polygons: all,High,17.685,30.441,1.721
+Natural-terrain map v3,Polygons: all,Very High,8.744,18.131,2.074
+Natural-terrain map v3,Points: all NGDR,Very Low,19.461,4.452,0.229
+Natural-terrain map v3,Points: all NGDR,Low,28.676,9.675,0.337
+Natural-terrain map v3,Points: all NGDR,Moderate,25.435,15.411,0.606
+Natural-terrain map v3,Points: all NGDR,High,17.685,26.627,1.506
+Natural-terrain map v3,Points: all NGDR,Very High,8.744,43.836,5.013

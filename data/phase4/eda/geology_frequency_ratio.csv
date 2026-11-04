@@ -1,0 +1,20 @@
+factor,class,order,area_pct,landslide_pct,frequency_ratio
+lith_group,alluvium,0,0.015,0.0,0.0
+lith_group,sandstone_dominant,1,42.347,38.515,0.91
+lith_group,shale_dominant,2,28.251,37.601,1.331
+lith_group,interbedded,3,8.792,8.123,0.924
+lith_group,conglomeratic,4,6.886,7.746,1.125
+lith_group,coal_bearing,5,12.633,7.262,0.575
+lith_group,calcareous,6,0.414,0.646,1.561
+dist_lineament,0 to 250,0,9.316,10.005,1.074
+dist_lineament,250 to 500,1,8.662,8.768,1.012
+dist_lineament,500 to 1000,2,16.185,18.128,1.12
+dist_lineament,1000 to 2000,3,25.899,26.036,1.005
+dist_lineament,2000 to 4000,4,27.228,25.659,0.942
+dist_lineament,> 4000,5,12.709,11.404,0.897
+lineament_density_1km,0 to 0.01,0,78.311,76.762,0.98
+lineament_density_1km,0.01 to 0.25,1,2.586,2.851,1.103
+lineament_density_1km,0.25 to 0.5,2,2.484,2.743,1.105
+lineament_density_1km,0.5 to 1,3,4.993,5.379,1.077
+lineament_density_1km,1 to 2,4,10.034,10.221,1.019
+lineament_density_1km,> 2,5,1.593,2.044,1.283

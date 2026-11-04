@@ -1,0 +1,26 @@
+{
+  "groups": {
+    "1": "alluvium",
+    "2": "sandstone_dominant",
+    "3": "shale_dominant",
+    "4": "interbedded",
+    "5": "conglomeratic",
+    "6": "coal_bearing",
+    "7": "calcareous"
+  },
+  "land_share_pct": {
+    "no_data": 0.663,
+    "alluvium": 0.015,
+    "sandstone_dominant": 42.347,
+    "shale_dominant": 28.251,
+    "interbedded": 8.792,
+    "conglomeratic": 6.886,
+    "coal_bearing": 12.633,
+    "calcareous": 0.414
+  },
+  "n_lines": [
+    631,
+    47,
+    109
+  ]
+}

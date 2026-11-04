@@ -1,0 +1,37 @@
+N1 random negatives            test on random negatives=0.757  test on road-matched negatives=0.656
+N2 road-matched negatives      test on random negatives=0.666  test on road-matched negatives=0.715
+N3 both                        test on random negatives=0.742  test on road-matched negatives=0.706
+Selected by worst-case AUC: N3 both
+fold 0: threshold 0.47 [56s]
+fold 1: threshold 0.46 [74s]
+fold 2: threshold 0.42 [97s]
+fold 3: threshold 0.47 [127s]
+fold 4: threshold 0.44 [143s]
+test            test on random negatives  test on road-matched negatives
+ROC_AUC   mean                     0.741                           0.706
+          std                      0.018                           0.018
+PR_AUC    mean                     0.747                           0.680
+          std                      0.021                           0.028
+F1_macro  mean                     0.677                           0.650
+          std                      0.022                           0.020
+F1_LS     mean                     0.676                           0.659
+          std                      0.030                           0.027
+F1_NonLS  mean                     0.677                           0.641
+          std                      0.016                           0.017
+MCC       mean                     0.357                           0.305
+          std                      0.042                           0.040
+threshold mean                     0.452                           0.452
+          std                      0.022                           0.022
+       feature  perm_auc_drop_mean  perm_auc_drop_sd
+         slope              0.0932            0.0121
+           map              0.0212            0.0113
+  curv_profile              0.0128            0.0071
+           twi              0.0121            0.0077
+    max_precip              0.0095            0.0032
+ soil_sand_pct              0.0093            0.0041
+     elevation              0.0060            0.0085
+      tpi_270m              0.0045            0.0027
+dist_river_osm              0.0043            0.0044
+    dist_fault              0.0027            0.0022
+Natural model complete [166s]
+EXIT_CODE=0

@@ -1,0 +1,39 @@
+{
+  "pbf": "north-eastern-zone-261027.osm.pbf",
+  "pbf_url": "https://download.geofabrik.de/asia/india/north-eastern-zone-261027.osm.pbf",
+  "road_ways": 23051,
+  "river_ways": 318,
+  "road_km_inside_state_by_class": {
+    "construction": 11.6,
+    "living_street": 0.5,
+    "primary": 1127.3,
+    "residential": 2236.9,
+    "road": 6.1,
+    "secondary": 626.2,
+    "service": 205.2,
+    "tertiary": 990.5,
+    "track": 1724.4,
+    "trunk": 1444.7,
+    "trunk_link": 2.9,
+    "unclassified": 5770.8
+  },
+  "road_km_inside_state_total": 14147.2,
+  "dist_road_any": {
+    "min": 0.0,
+    "median": 862.0134182958358,
+    "mean": 1318.8491839388012,
+    "max": 9666.151878331226
+  },
+  "dist_road_major": {
+    "min": 0.0,
+    "median": 3170.7900543914416,
+    "mean": 4207.625491138068,
+    "max": 23785.56942131261
+  },
+  "dist_river_osm": {
+    "min": 0.0,
+    "median": 2141.5121780526874,
+    "mean": 2449.845155824708,
+    "max": 10718.578026953503
+  }
+}

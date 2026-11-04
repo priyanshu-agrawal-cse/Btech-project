@@ -1,0 +1,21 @@
+Cell 30.3068 m (918.5 m2); stream threshold = 1089 cells (1 km2)
+Downloading WhiteboxTools pre-compiled binary for first time use ...
+Downloading WhiteboxTools binary from https://www.whiteboxgeo.com/WBT_Linux/WhiteboxTools_linux_amd64.zip
+Decompressing WhiteboxTools_linux_amd64.zip ...
+WhiteboxTools package directory: <python-site-packages>/whitebox
+Downloading testdata ...
+  wrote dem_padded_uncompressed.tif (uncompressed copy for WhiteboxTools)
+  WBT fill_depressions: OK -> dem_breached.tif
+  conditioning method: fill
+  WBT d_inf_flow_accumulation: OK -> dinf_sca.tif
+  WBT d8_pointer: OK -> d8_pntr.tif
+  WBT d8_flow_accumulation: OK -> d8_cells.tif
+  WBT extract_streams: OK -> streams.tif
+  WBT elevation_above_stream: OK -> hand.tif
+  twi      min=2.856 mean=6.006 max=26.758
+  spi_log  min=0.030 mean=4.067 max=19.722
+  stream cells (padded grid) = 912,390
+  dist_stream min=0.0 mean=461.1 max=2016.3 m; stream cells inside state = 437,968
+  hand     min=0.00 mean=165.69 max=1295.47 m
+Hydrology features complete.
+EXIT_CODE=0

@@ -1,0 +1,11 @@
+family,perm_auc_drop_mean,perm_auc_drop_sd
+roads,0.3991,0.0133
+terrain,0.0059,0.0014
+rain,0.0053,0.0033
+soil,0.0051,0.0034
+rivers,0.0026,0.0012
+hydrology,0.0023,0.0014
+relief scales,0.0013,0.0006
+land cover,0.0,0.0
+geology,-0.0001,0.0002
+faults,-0.0001,0.0004

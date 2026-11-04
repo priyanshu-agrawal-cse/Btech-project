@@ -1,0 +1,82 @@
+Main table (3718, 41), positives 1859, blocks 243, trials per tuning 15
+fold 0: Logi=0.883  SVM_=0.891  Rand=0.933  XGBo=0.934  Ligh=0.933  Ense=0.935  [46s]
+fold 1: Logi=0.887  SVM_=0.898  Rand=0.939  XGBo=0.943  Ligh=0.942  Ense=0.942  [68s]
+fold 2: Logi=0.901  SVM_=0.892  Rand=0.950  XGBo=0.957  Ligh=0.956  Ense=0.956  [50s]
+fold 3: Logi=0.902  SVM_=0.928  Rand=0.961  XGBo=0.958  Ligh=0.957  Ense=0.960  [52s]
+fold 4: Logi=0.884  SVM_=0.889  Rand=0.926  XGBo=0.935  Ligh=0.931  Ense=0.933  [58s]
+
+Nested 10 km spatial CV (fold mean +/- SD):
+               model  ROC_AUC_mean  ROC_AUC_std  PR_AUC_mean  F1_macro_mean  F1_macro_std  F1_LS_mean  F1_NonLS_mean  MCC_mean  threshold_mean
+             XGBoost         0.946        0.012        0.950          0.878         0.015       0.876          0.880     0.757           0.498
+Ensemble_RF_XGB_LGBM         0.945        0.012        0.949          0.880         0.013       0.879          0.882     0.762           0.500
+            LightGBM         0.944        0.012        0.947          0.879         0.011       0.879          0.880     0.759           0.452
+       Random_Forest         0.942        0.014        0.945          0.880         0.014       0.879          0.881     0.760           0.492
+             SVM_RBF         0.900        0.016        0.886          0.829         0.019       0.834          0.825     0.661           0.468
+ Logistic_Regression         0.891        0.009        0.869          0.829         0.010       0.834          0.824     0.660           0.498
+               model  pooled_ROC_AUC  ci95_low  ci95_high
+ Logistic_Regression           0.891     0.875      0.905
+             SVM_RBF           0.899     0.883      0.913
+       Random_Forest           0.941     0.929      0.952
+             XGBoost           0.945     0.934      0.955
+            LightGBM           0.943     0.931      0.954
+Ensemble_RF_XGB_LGBM           0.945     0.933      0.955
+[elapsed 283s]
+Whole-table tuning: XGB 0.9447 {'n_estimators': 300, 'max_depth': 6, 'learning_rate': 0.013708961804495297, 'subsample': 0.9561669182344184, 'colsample_bytree': 0.6130130795160045, 'reg_lambda': 6.863772946555615, 'min_child_weight': 9}
+                    LGB 0.9446 {'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.0234526379195164, 'subsample': 0.8401671253058606, 'colsample_bytree': 0.717931667209477, 'reg_lambda': 3.372738229803964, 'min_child_samples': 49, 'subsample_freq': 1}
+
+E1 incremental factor groups (10 km blocks)
+  E1 corrected Phase 2 factors (terrain, LULC, faults, rain)        AUC=0.737+/-0.031 F1m=0.675 MCC=0.357
+  E1 + real hydrology                                               AUC=0.749+/-0.024 F1m=0.682 MCC=0.371
+  E1 + multi-scale relief                                           AUC=0.757+/-0.022 F1m=0.692 MCC=0.390
+  E1 + soil                                                         AUC=0.757+/-0.021 F1m=0.688 MCC=0.383
+  E1 + rivers                                                       AUC=0.762+/-0.018 F1m=0.693 MCC=0.393
+  E1 + roads (all 25 factors)                                       AUC=0.945+/-0.012 F1m=0.881 MCC=0.763
+  E1 + geology (all 28 factors)                                     AUC=0.945+/-0.011 F1m=0.882 MCC=0.765
+E2 negative controls and single groups (10 km blocks)
+  E2 coordinates only (row, col)                                    AUC=0.561+/-0.047 F1m=0.536 MCC=0.078
+  E2 distance to any road only                                      AUC=0.916+/-0.016 F1m=0.847 MCC=0.697
+  E2 roads only (3 layers)                                          AUC=0.928+/-0.015 F1m=0.869 MCC=0.738
+  E2 all factors except roads                                       AUC=0.760+/-0.018 F1m=0.688 MCC=0.383
+  E6 all factors except smooth regional fields                      AUC=0.940+/-0.013 F1m=0.870 MCC=0.741
+  E6 all factors except LULC                                        AUC=0.945+/-0.012 F1m=0.882 MCC=0.764
+E3 validation design (all 25 factors)
+  E3 spatial blocks 1 km                                            AUC=0.950+/-0.003 F1m=0.883 MCC=0.766
+  E3 spatial blocks 5 km                                            AUC=0.946+/-0.006 F1m=0.881 MCC=0.762
+  E3 spatial blocks 10 km                                           AUC=0.945+/-0.011 F1m=0.884 MCC=0.768
+  E3 spatial blocks 20 km                                           AUC=0.943+/-0.010 F1m=0.878 MCC=0.756
+  E3 random 5-fold AUC=0.949 F1m=0.884
+E4 road-matched negatives (survey-bias test)
+  E4 train+test road-matched, all factors                           AUC=0.781+/-0.008 F1m=0.707 MCC=0.414
+  E4 train+test road-matched, no road factors                       AUC=0.713+/-0.011 F1m=0.654 MCC=0.308
+  E4 train on random negatives, test on road-matched                AUC=0.680+/-0.022 F1m=0.514 MCC=0.155
+  E4 train on random negatives (no roads), test on road-matched     AUC=0.652+/-0.015 F1m=0.605 MCC=0.211
+E5 sampling ratio (train 1:5)
+  E5 train 1:5, test 1:5                                            AUC=0.946+/-0.015 F1m=0.842 MCC=0.689
+  E5 train 1:5, test balanced 1:1                                   AUC=0.946+/-0.016 F1m=0.875 MCC=0.755
+[elapsed 437s]
+Permutation importance (AUC drop on spatial test folds):
+         feature  perm_auc_drop_mean  perm_auc_drop_sd  mean_abs_shap
+   dist_road_any              0.1898            0.0135         1.2615
+ dist_road_major              0.0231            0.0032         0.5136
+road_density_1km              0.0151            0.0038         0.5053
+           slope              0.0053            0.0019         0.1987
+   soil_sand_pct              0.0039            0.0020         0.1182
+  dist_river_osm              0.0027            0.0010         0.1031
+             map              0.0026            0.0024         0.1251
+             twi              0.0010            0.0006         0.0637
+         tpi_1km              0.0007            0.0004         0.0600
+  soil_bdod_gcm3              0.0006            0.0009         0.0300
+     dist_stream              0.0006            0.0003         0.0482
+      max_precip              0.0004            0.0015         0.0885
+       family  perm_auc_drop_mean  perm_auc_drop_sd
+        roads              0.3991            0.0133
+      terrain              0.0059            0.0014
+         rain              0.0053            0.0033
+         soil              0.0051            0.0034
+       rivers              0.0026            0.0012
+    hydrology              0.0023            0.0014
+relief scales              0.0013            0.0006
+   land cover              0.0000            0.0000
+      geology             -0.0001            0.0002
+       faults             -0.0001            0.0004
+Step 10 complete [450s]

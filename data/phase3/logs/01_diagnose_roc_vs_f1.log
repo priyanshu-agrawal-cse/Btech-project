@@ -1,0 +1,48 @@
+Loaded Phase 2 table: 91,944 rows, 17 features, positive share=0.671
+
+1-2. Reproduce Phase 2 (random 5-fold, threshold 0.5) + full metric panel
+  XGB Phase-2 config | random CV                   foldmean ROC=0.8932(+/-0.0015) PR=0.9327 F1m=0.7956  [5s]
+
+3. Threshold analysis on pooled out-of-fold probabilities
+  macro-F1-optimal threshold = 0.58  | Youden-J-optimal threshold = 0.64
+
+4. Class weighting (scale_pos_weight = n_neg / n_pos)
+  XGB scale_pos_weight=0.49 | random CV            foldmean ROC=0.8897(+/-0.0023) PR=0.9316 F1m=0.7968  [5s]
+
+5a. Spatial proximity of test pixels to training pixels (random CV, fold 1)
+  random 5-fold  median dist to nearest TRAIN pixel =      30 m ; test landslide -> nearest TRAIN landslide median      30 m ; 100.0 % within 100 m
+  10 km blocks   median dist to nearest TRAIN pixel =    1888 m ; test landslide -> nearest TRAIN landslide median    3187 m ;   2.6 % within 100 m
+
+5b. Spatial block cross-validation (same model, same data)
+  XGB Phase-2 config |  1 km blocks (16686 blocks) foldmean ROC=0.7925(+/-0.0103) PR=0.8775 F1m=0.7088  [5s]
+  XGB Phase-2 config |  2 km blocks (5412 blocks)  foldmean ROC=0.7632(+/-0.0185) PR=0.8615 F1m=0.6867  [5s]
+  XGB Phase-2 config |  5 km blocks (933 blocks)   foldmean ROC=0.7086(+/-0.0191) PR=0.8303 F1m=0.6340  [8s]
+  XGB Phase-2 config | 10 km blocks (255 blocks)   foldmean ROC=0.6825(+/-0.0224) PR=0.8112 F1m=0.6119  [4s]
+  XGB Phase-2 config | 20 km blocks (71 blocks)    foldmean ROC=0.6649(+/-0.0352) PR=0.8002 F1m=0.5892  [5s]
+
+5c. Coordinates-only model (inputs = row, col only)
+  XGB coords-only | random CV                      foldmean ROC=0.8957(+/-0.0023) PR=0.9305 F1m=0.7881  [2s]
+  XGB coords-only | 10 km blocks                   foldmean ROC=0.6469(+/-0.0403) PR=0.7734 F1m=0.5911  [2s]
+
+6. Location-proxy ablation under 10 km spatial CV
+  XGB without location proxies | 10 km             foldmean ROC=0.6062(+/-0.0233) PR=0.7594 F1m=0.4567  [4s]
+  XGB ONLY location proxies | 10 km                foldmean ROC=0.6652(+/-0.0278) PR=0.7959 F1m=0.5920  [3s]
+  XGB ONLY location proxies | random               foldmean ROC=0.9074(+/-0.0021) PR=0.9398 F1m=0.8165  [3s]
+
+Saved diagnostics to data/phase3/diagnostics/
+                                                   experiment  ROC_AUC  PR_AUC  PR_AUC_random_baseline  threshold  F1_LS  F1_NonLS  F1_macro  Recall_NonLS    MCC
+                                   Phase2 XGB | random 5-fold   0.8932  0.9327                  0.6713       0.50 0.8900    0.7011    0.7955        0.5739 0.6268
+      Phase2 XGB | random 5-fold | macro-F1-optimal threshold   0.8932  0.9327                  0.6713       0.58 0.8899    0.7432    0.8165        0.6786 0.6404
+      Phase2 XGB | random 5-fold | Youden-J-optimal threshold   0.8932  0.9327                  0.6713       0.64 0.8719    0.7450    0.8085        0.7579 0.6172
+                           XGB class-weighted | random 5-fold   0.8897  0.9316                  0.6713       0.50 0.8587    0.7349    0.7968        0.7775 0.5964
+                             Phase2 XGB | spatial 1 km blocks   0.7922  0.8774                  0.6713       0.50 0.8130    0.6046    0.7088        0.5906 0.4180
+                             Phase2 XGB | spatial 2 km blocks   0.7629  0.8620                  0.6713       0.50 0.7889    0.5843    0.6866        0.5988 0.3737
+                             Phase2 XGB | spatial 5 km blocks   0.7078  0.8305                  0.6713       0.50 0.7292    0.5391    0.6341        0.6070 0.2780
+                            Phase2 XGB | spatial 10 km blocks   0.6807  0.8117                  0.6713       0.50 0.6973    0.5276    0.6124        0.6270 0.2453
+                            Phase2 XGB | spatial 20 km blocks   0.6631  0.8002                  0.6713       0.50 0.6578    0.5226    0.5902        0.6640 0.2205
+                         XGB coordinates-only | random 5-fold   0.8956  0.9305                  0.6713       0.50 0.8917    0.6845    0.7881        0.5321 0.6338
+                  XGB coordinates-only | spatial 10 km blocks   0.6439  0.7698                  0.6713       0.50 0.6840    0.4990    0.5915        0.5873 0.2004
+XGB without elevation/rainfall/fault-distance | spatial 10 km   0.6055  0.7595                  0.6713       0.50 0.7954    0.1192    0.4573        0.0683 0.0655
+   XGB only elevation/rainfall/fault-distance | spatial 10 km   0.6639  0.7965                  0.6713       0.50 0.6603    0.5255    0.5929        0.6672 0.2258
+   XGB only elevation/rainfall/fault-distance | random 5-fold   0.9074  0.9397                  0.6713       0.50 0.9009    0.7320    0.8165        0.6013 0.6686
+EXIT_CODE=0

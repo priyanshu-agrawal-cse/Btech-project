@@ -1,0 +1,9 @@
+Dataset,Model,ROC_AUC,ROC_STD,PR_AUC,F1_macro
+augmented,XGBoost,0.8932,0.0015,0.9327,0.7956
+augmented,Random_Forest,0.8743,0.0034,0.9261,0.7749
+augmented,Gradient_Boosting,0.8187,0.0027,0.888,0.7003
+augmented,Logistic_Regression,0.6682,0.0017,0.7928,0.6163
+classic,XGBoost,0.8932,0.0015,0.9327,0.7956
+classic,Random_Forest,0.8743,0.0034,0.9261,0.7749
+classic,Gradient_Boosting,0.8187,0.0027,0.888,0.7003
+classic,Logistic_Regression,0.6682,0.0017,0.7928,0.6163

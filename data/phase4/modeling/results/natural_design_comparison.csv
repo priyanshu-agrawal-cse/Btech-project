@@ -1,0 +1,4 @@
+design,test on random negatives,test on road-matched negatives,test on random negatives SD,test on road-matched negatives SD,worst_case_AUC
+N3 both,0.7424,0.7026,0.0109,0.009,0.7026
+N2 road-matched negatives,0.6656,0.7118,0.0098,0.0127,0.6656
+N1 random negatives,0.7636,0.6572,0.0156,0.0204,0.6572

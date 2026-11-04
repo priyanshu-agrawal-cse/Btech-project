@@ -1,0 +1,17 @@
+Scenes found: 113
+  tile 46QDK: 10 scenes, kept 6, cloud 0.0-2.5 %
+  tile 46QDL: 20 scenes, kept 6, cloud 0.0-0.0 %
+  tile 46QDM: 17 scenes, kept 6, cloud 0.0-0.0 %
+  tile 46QEK: 10 scenes, kept 6, cloud 0.8-9.6 %
+  tile 46QEL: 8 scenes, kept 6, cloud 0.3-7.4 %
+  tile 46QEM: 7 scenes, kept 6, cloud 0.1-9.6 %
+  tile 46RDN: 18 scenes, kept 6, cloud 0.1-0.2 %
+  tile 46REN: 8 scenes, kept 6, cloud 0.9-7.1 %
+Scenes used: 48 from 8 tiles
+Lazy dataset: {'y': 9437, 'x': 3959, 'time': 15} dates
+Computing median NDVI...
+<python-site-packages>/rasterio/warp.py:390: NotGeoreferencedWarning: Dataset has no geotransform, gcps, or rpcs. The identity matrix will be returned.
+  dest = _reproject(
+{'collection': 'sentinel-2-l2a', 'period': '2021-11-01/2022-01-20', 'scenes_used': 48, 'tiles': ['46QDK', '46QDL', '46QDM', '46QEK', '46QEL', '46QEM', '46RDN', '46REN'], 'ndvi_min': -0.98518967628479, 'ndvi_mean': 0.8708031177520752, 'ndvi_max': 0.9994484186172485, 'land_share_without_clear_obs': 0.0034077712298274943, 'clear_obs_median': 2.0}
+NDVI complete.
+EXIT_CODE=0

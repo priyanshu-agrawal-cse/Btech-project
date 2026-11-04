@@ -1,0 +1,4 @@
+Architecture,Untuned_ROC_AUC,Tuned_ROC_AUC,Delta_ROC_AUC,Untuned_F1_macro,Tuned_F1_macro,Delta_F1_macro,Untuned_MCC,Tuned_MCC
+Logistic Regression,0.892,0.892,-0.0,0.828,0.828,-0.0,0.659,0.658
+SVM (RBF),0.907,0.905,-0.003,0.841,0.844,0.002,0.684,0.688
+Random Forest,0.942,0.944,0.002,0.879,0.882,0.003,0.758,0.764

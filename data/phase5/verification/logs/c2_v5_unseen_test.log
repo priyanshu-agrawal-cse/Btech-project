@@ -1,0 +1,21 @@
+Mapped polygons by map sheet: 15 sheets; top 1 46.6%, top 3 90.8%, top 5 96.4%
+dt         Mapped as point bufferred to polygon  Mapped as polygon  blank
+toposheet                                                                
+83D16                                         0                826      0
+84A15                                         0                474      0
+84A11                                         1                310      0
+83D12                                         0                 82      5
+83D11                                         0                 19      1
+83D15                                         0                 12     74
+84A05                                         0                  9     61
+83D08                                         0                  7     23
+84A09                                         0                  7      0
+84E01                                         6                  7     99
+                                             All-factor map v3  Natural map v3  Natural map v5  Road distance  pixels
+test_set                                                                                                             
+all unused polygons                                     0.6589          0.6736          0.7023         0.6432    1259
+blank data_type                                         0.6985          0.6746          0.6806         0.7125     861
+point buffered                                          0.5733          0.6713          0.7492         0.4932     398
+unused, in sheets with no training polygons             0.6462          0.6922          0.7042         0.6492    1045
+unused, in sheets with training polygons                0.7213          0.5823          0.6930         0.6140     214
+Land-wide Spearman, v5 map against v3 map: 0.824

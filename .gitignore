@@ -1,0 +1,45 @@
+# =====================================================================
+#  Mizoram Landslide Susceptibility Mapping - .gitignore
+#  Keeps the GitHub repo small (about 125 MB) and leaves out third-party
+#  raw data. Everything ignored here can be re-downloaded or re-created
+#  with the scripts in scripts/.
+# =====================================================================
+
+# ---------- Python environment ----------
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.env
+
+# ---------- Raw third-party downloads (several GB) ----------
+# Copernicus DEM, CHIRPS rainfall, ESA WorldCover, SoilGrids, OSM, GSI/NGDR.
+# The GSI/NGDR licence is not stated (documentation/SOURCES.md), so these
+# files are not redistributed. Download them again with scripts/download/
+# and scripts/phase3/.
+data/raw/
+
+# ---------- Large rasters and archives ----------
+# GitHub rejects files over 100 MB. Every raster is produced by the scripts.
+# PNG previews of the maps (data/final/*.png) are still included.
+*.tif
+*.tiff
+*.ovr
+*.aux.xml
+*.zip
+*.gz
+*.7z
+*.rar
+
+# ---------- QGIS temporary files ----------
+*.qgs~
+*.qgz~
+
+# ---------- OS / editor files ----------
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/

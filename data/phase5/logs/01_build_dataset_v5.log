@@ -1,0 +1,38 @@
+Loading Phase 3 dataset...
+block10 formula verified on v3 rows.
+Extracting mapped polygon pixels from NGDR...
+Extracted 1434 unique land pixels from polygons.
+Sampling 1,434 random negatives (seed 42) >150m from all positives...
+Candidate negative cells: 22,738,707 (outside 150m buffer of all 3,293 positives)
+Assembling new dataframe rows...
+  sampled natural factor: elevation
+  sampled natural factor: slope
+  sampled natural factor: aspect_sin
+  sampled natural factor: aspect_cos
+  sampled natural factor: curv_profile
+  sampled natural factor: curv_plan
+  sampled natural factor: tpi_270m
+  sampled natural factor: tpi_1km
+  sampled natural factor: tpi_3km
+  sampled natural factor: relief_1km
+  sampled natural factor: twi
+  sampled natural factor: spi_log
+  sampled natural factor: dist_stream
+  sampled natural factor: hand
+  sampled natural factor: dist_fault
+  sampled natural factor: map
+  sampled natural factor: max_precip
+  sampled natural factor: soil_clay_pct
+  sampled natural factor: soil_sand_pct
+  sampled natural factor: soil_bdod_gcm3
+  sampled natural factor: dist_river_osm
+Verified: original 13,013 rows perfectly preserved.
+SUCCESS: Saved data/phase5/modeling/FINAL_DATASET_v5.csv with 15,881 rows and 42 columns.
+Set counts:
+set
+neg_pool           7436
+pos                1859
+neg_random         1859
+neg_roadmatched    1859
+pos_polygon        1434
+neg_random_v5      1434

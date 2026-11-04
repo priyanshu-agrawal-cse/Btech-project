@@ -1,0 +1,15 @@
+,dist_lineament,lineament_density_1km,max_abs
+elevation,-0.004,-0.038,0.038
+slope,0.017,-0.02,0.02
+relief_1km,0.056,-0.064,0.064
+tpi_1km,0.027,-0.045,0.045
+twi,-0.003,0.013,0.013
+hand,0.063,-0.099,0.099
+dist_stream,0.053,-0.09,0.09
+dist_fault,0.054,-0.022,0.054
+map,0.06,-0.022,0.06
+max_precip,0.047,-0.009,0.047
+soil_clay_pct,-0.076,0.054,0.076
+soil_sand_pct,0.049,-0.008,0.049
+dist_river_osm,-0.005,-0.031,0.031
+dist_road_any,0.071,-0.042,0.071

@@ -1,0 +1,13 @@
+Natural breaks: [0.2750000059604645, 0.3865000009536743, 0.4975000023841858, 0.6277999877929688]
+     zone  score_from  score_to  area_pct  landslide_pct_training  FR_training  area_pct_oof  landslide_pct_spatial_oof  FR_spatial_oof  landslides_per_100km2_spatial_oof
+ Very Low       0.000     0.275    19.461                   1.560        0.080        27.138                      7.907           0.291                              2.573
+      Low       0.275     0.387    28.676                   6.778        0.236        26.420                     14.470           0.548                              4.837
+ Moderate       0.387     0.497    25.435                  15.438        0.607        22.407                     19.150           0.855                              7.547
+     High       0.497     0.628    17.685                  28.080        1.588        15.613                     25.390           1.626                             14.361
+Very High       0.628     1.000     8.744                  48.144        5.506         8.421                     33.082           3.928                             34.692
+{'curve': 'natural-terrain map, spatial out-of-fold (prediction rate)', 'AUC': np.float64(0.734), 'AUC_within_60m_of_road': np.float64(0.726), 'captured_in_top_1pct_area': 6.823, 'captured_in_top_5pct_area': 23.988, 'captured_in_top_10pct_area': 36.719, 'captured_in_top_20pct_area': 52.982, 'captured_in_top_30pct_area': 65.71}
+{'curve': 'natural-terrain map, final model (success rate, training data)', 'AUC': np.float64(0.824), 'AUC_within_60m_of_road': np.float64(0.812), 'captured_in_top_1pct_area': 12.795, 'captured_in_top_5pct_area': 35.971, 'captured_in_top_10pct_area': 51.939, 'captured_in_top_20pct_area': 69.062, 'captured_in_top_30pct_area': 79.057}
+{'curve': 'Map v2 (in-sample for most of these landslides)', 'AUC': np.float64(0.928), 'AUC_within_60m_of_road': np.float64(0.847), 'captured_in_top_1pct_area': 20.656, 'captured_in_top_5pct_area': 55.46, 'captured_in_top_10pct_area': 75.793, 'captured_in_top_20pct_area': 90.802, 'captured_in_top_30pct_area': 97.041}
+{'curve': 'Baseline: nearest to a road first', 'AUC': np.float64(0.919), 'AUC_within_60m_of_road': np.float64(0.701), 'captured_in_top_1pct_area': 24.164, 'captured_in_top_5pct_area': 72.441, 'captured_in_top_10pct_area': 80.332, 'captured_in_top_20pct_area': 88.084, 'captured_in_top_30pct_area': 93.061}
+Step 12 complete.
+EXIT_CODE=0

@@ -1,0 +1,6 @@
+zone,score_from,score_to,area_pct,landslide_pct_training,FR_training,area_pct_oof,landslide_pct_spatial_oof,FR_spatial_oof
+Very Low,0.0,0.1748,29.129,0.152,0.005,26.046,5.709,0.219
+Low,0.1748,0.3065,28.567,3.067,0.107,28.677,11.236,0.392
+Moderate,0.3065,0.4618,21.249,8.958,0.422,22.901,14.941,0.652
+High,0.4618,0.6632,13.505,20.984,1.554,14.678,20.923,1.426
+Very High,0.6632,1.0,7.55,66.839,8.853,7.698,47.191,6.13

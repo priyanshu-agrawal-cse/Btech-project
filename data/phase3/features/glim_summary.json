@@ -1,0 +1,47 @@
+{
+  "archive": "GLiM_LiMW_GIS_2015.gdb.zip",
+  "layer": "GLiM_export",
+  "n_polygons": 32,
+  "area_share_pct_xx": {
+    "ss": 99.612,
+    "sm": 0.336,
+    "su": 0.052
+  },
+  "area_share_pct_Litho": {
+    "ssmx__": 98.565,
+    "sssscl": 0.836,
+    "smmx__": 0.336,
+    "ssss__": 0.199,
+    "sumx__": 0.052,
+    "sssh__": 0.011
+  },
+  "area_share_pct_IDENTITY_": {
+    "IND47": 76.589,
+    "IND54": 5.862,
+    "IND60": 2.597,
+    "IND56": 2.247,
+    "IND66": 1.949,
+    "IND63": 1.857,
+    "IND53": 1.497,
+    "IND65": 1.473,
+    "IND55": 1.344,
+    "IND61": 0.791,
+    "IND68": 0.788,
+    "IND64": 0.723,
+    "IND59": 0.684,
+    "MMY1": 0.336,
+    "IND67": 0.267,
+    "IND57": 0.213,
+    "BGD1099": 0.181,
+    "IND62": 0.178,
+    "IND58": 0.161,
+    "MMY426": 0.135,
+    "IND51": 0.048,
+    "IND50": 0.038,
+    "BGD1025": 0.018,
+    "BGD821": 0.011,
+    "BGD894": 0.01,
+    "IND52": 0.004
+  },
+  "level_used": null
+}

@@ -1,0 +1,14 @@
+a,b,spearman
+slope,tri,0.974
+dist_road_any,road_density_1km,-0.894
+curv_general,curv_plan,-0.864
+curv_general,curv_profile,0.827
+dist_stream,hand,0.804
+tpi_3km,dist_stream,0.773
+elevation,soil_bdod_gcm3,-0.773
+curv_general,tpi_270m,0.768
+soil_sand_pct,max_precip,0.761
+tpi_3km,hand,0.761
+tpi_1km,tpi_3km,0.756
+map,max_precip,0.746
+elevation,map,-0.711

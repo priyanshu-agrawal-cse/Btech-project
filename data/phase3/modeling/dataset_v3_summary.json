@@ -1,0 +1,48 @@
+{
+  "rows": 13013,
+  "rows_by_set": {
+    "neg_pool": 7436,
+    "pos": 1859,
+    "neg_random": 1859,
+    "neg_roadmatched": 1859
+  },
+  "n_features": 27,
+  "features": [
+    "elevation",
+    "slope",
+    "aspect_sin",
+    "aspect_cos",
+    "curv_general",
+    "curv_profile",
+    "curv_plan",
+    "tri",
+    "tpi_270m",
+    "tpi_1km",
+    "tpi_3km",
+    "relief_1km",
+    "twi",
+    "spi_log",
+    "dist_stream",
+    "hand",
+    "dist_road_any",
+    "dist_road_major",
+    "road_density_1km",
+    "dist_river_osm",
+    "soil_clay_pct",
+    "soil_sand_pct",
+    "soil_bdod_gcm3",
+    "lulc",
+    "map",
+    "max_precip",
+    "dist_fault"
+  ],
+  "missing_values_per_feature": {
+    "soil_clay_pct": 57,
+    "soil_sand_pct": 57,
+    "soil_bdod_gcm3": 57
+  },
+  "exclusion_buffer_m": 150,
+  "candidate_negative_cells": 22815098,
+  "blocks_10km_with_samples": 251,
+  "blocks_10km_with_landslides": 188
+}
